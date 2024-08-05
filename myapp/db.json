@@ -1,0 +1,308 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Dog Food",
+      "category": "Dog Food",
+      "brand": "Pedigree",
+      "price": 49.99,
+      "stock": 150,
+      "description": "High-quality dry dog food with natural ingredients.",
+      "ratings": 4.7,
+      "images": "https://th.bing.com/th/id/OIP.hYWtZ5l2PyRGDnz46VGf8AAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 2,
+      "name": "Organic Cat Food",
+      "category": "Cat Food",
+      "brand": "Meow Mix",
+      "price": 39.99,
+      "stock": 200,
+      "description": "Organic and grain-free cat food for optimal health.",
+      "ratings": 4.5,
+      "images": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dog Chew Toy",
+      "category": "Dog Toys",
+      "brand": "Chew Master",
+      "price": 14.99,
+      "stock": 80,
+      "description": "Durable rubber chew toy for aggressive chewers.",
+      "ratings": 4.3,
+      "images": "https://m.media-amazon.com/images/I/7190G7t0QZL._SL1500_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cat Scratching Post",
+      "category": "Cat Furniture",
+      "brand": "Kitty Haven",
+      "price": 29.99,
+      "stock": 50,
+      "description": "Tall scratching post with a sturdy base.",
+      "ratings": 4.6,
+      "images": "https://th.bing.com/th/id/R.d0e0dc55b6479390ee24a6a987c78137?rik=WQ2lYLLyXSECKg&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f946184-center-1&ehk=o4gp2IxXVDs3neUeQadu05RX%2fNt9%2fWoIO8tuZUh4jCM%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 5,
+      "name": "Dog Leash",
+      "category": "Dog Accessories",
+      "brand": "Paw Patrol",
+      "price": 19.99,
+      "stock": 100,
+      "description": "Nylon dog leash with a comfortable grip.",
+      "ratings": 4.4,
+      "images": "https://th.bing.com/th/id/OIP.ODJL6wIHkqF3r4ElGjhlhAHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 6,
+      "name": "Cat Litter",
+      "category": "Cat Supplies",
+      "brand": "Clean Paws",
+      "price": 24.99,
+      "stock": 120,
+      "description": "Clumping cat litter with odor control.",
+      "ratings": 4.2,
+      "images": "https://www.thesprucepets.com/thmb/h1iiBNycOsUQn35R_hPujzE6gNg=/2896x1907/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-170455198-9265c1d5b5eb4e77a340c0c778d04043.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dog Bed",
+      "category": "Dog Furniture",
+      "brand": "Comfy Canine",
+      "price": 59.99,
+      "stock": 40,
+      "description": "Orthopedic dog bed with memory foam.",
+      "ratings": 4.8,
+      "images": "https://i5.walmartimages.com/asr/f3142e66-9ca4-49db-a229-87a09f284f22_2.4c65b46849a5e3c2540824bacc75bb48.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Cat Collar",
+      "category": "Cat Accessories",
+      "brand": "Purrfect Fit",
+      "price": 12.99,
+      "stock": 75,
+      "description": "Adjustable cat collar with a bell.",
+      "ratings": 4.5,
+      "images": "https://lh6.googleusercontent.com/6REN7ne4Dt8PcYNfWCFUNsjg7Xep-g3n7FpeaDVEtX7zsyixi0dDRgM2kce5aYynRUKZ3uWRrJecdVRZCML_LSt08jkNON79uVVpt0_qzTClEERQhdxFIzOA8cl9jb373fH7Z8mk"
+    },
+    {
+      "id": 9,
+      "name": "Dog Shampoo",
+      "category": "Dog Grooming",
+      "brand": "Fur Fresh",
+      "price": 15.99,
+      "stock": 90,
+      "description": "Natural dog shampoo with aloe vera.",
+      "ratings": 4.6,
+      "images": "https://i5.walmartimages.com/asr/4b7aeb92-c0a0-442f-b9f4-1d71430cada4.a1e0ac5fbd8b38cea7805852086df05b.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
+    },
+    {
+      "id": 10,
+      "name": "Cat Brush",
+      "category": "Cat Grooming",
+      "brand": "Groom & Shine",
+      "price": 10.99,
+      "stock": 110,
+      "description": "Soft-bristle cat brush for gentle grooming.",
+      "ratings": 4.4,
+      "images": "https://m.media-amazon.com/images/I/71QMhV0794L._SL1500_.jpg"
+    }
+  ],
+  "prerson": [
+    {
+      "id": "",
+      "name": "",
+      "email": "",
+      "password": "",
+      "cpssword": ""
+    }
+  ],
+
+  "catProducts": [
+    {
+      "id": 1,
+      "name": "LunaCat Premium Dry Food",
+      "brand": "LunaCat",
+      "category": "Food",
+      "price": 19.99,
+      "description": "High-protein, grain-free dry food for adult cats.",
+      "images": "https://images.unsplash.com/photo-1611657018811-54d5038e5465"
+    },
+    {
+      "id": 2,
+      "name": "LunaCat Wet Food Variety Pack",
+      "brand": "LunaCat",
+      "category": "Food",
+      "price": 24.99,
+      "description": "A variety pack of wet food with flavors like chicken, salmon, and turkey.",
+      "images": "https://i.imgur.com/D9GJrwE.jpg"
+    },
+    {
+      "id": 3,
+      "name": "LunaCat Organic Catnip",
+      "brand": "LunaCat",
+      "category": "Toys",
+      "price": 7.99,
+      "description": "100% organic catnip to drive your cat wild.",
+      "images": "https://i.imgur.com/Zr0W4IX.jpg"
+    },
+    {
+      "id": 4,
+      "name": "LunaCat Feather Wand",
+      "brand": "LunaCat",
+      "category": "Toys",
+      "price": 12.99,
+      "description": "Interactive feather wand toy for endless fun.",
+      "images": "https://i.imgur.com/SuVVE8k.jpg"
+    },
+    {
+      "id": 5,
+      "name": "LunaCat Comfy Bed",
+      "brand": "LunaCat",
+      "category": "Beds",
+      "price": 29.99,
+      "description": "Ultra-soft bed with a plush lining for cozy naps.",
+      "images": "https://i.imgur.com/YfHCHCv.jpg"
+    },
+    {
+      "id": 6,
+      "name": "LunaCat Self-Cleaning Litter Box",
+      "brand": "LunaCat",
+      "category": "Litter Boxes",
+      "price": 89.99,
+      "description": "Automatic self-cleaning litter box to keep things tidy.",
+      "images": "https://i.imgur.com/Zo6HQ1m.jpg"
+    },
+    {
+      "id": 7,
+      "name": "LunaCat Adjustable Harness",
+      "brand": "LunaCat",
+      "category": "Accessories",
+      "price": 14.99,
+      "description": "Comfortable and secure harness for outdoor adventures.",
+      "images": "https://i.imgur.com/hgL8sOZ.jpg"
+    },
+    {
+      "id": 8,
+      "name": "LunaCat Scratching Post",
+      "brand": "LunaCat",
+      "category": "Scratching Posts",
+      "price": 39.99,
+      "description": "Durable scratching post with sisal rope.",
+      "images": "https://i.imgur.com/hk5fH7O.jpg"
+    },
+    {
+      "id": 9,
+      "name": "LunaCat Gourmet Treats",
+      "brand": "LunaCat",
+      "category": "Treats",
+      "price": 9.99,
+      "description": "Delicious gourmet treats made with real meat.",
+      "images": "https://i.imgur.com/ebnUn9E.jpg"
+    },
+    {
+      "id": 10,
+      "name": "LunaCat Interactive Laser Toy",
+      "brand": "LunaCat",
+      "category": "Toys",
+      "price": 15.99,
+      "description": "Automated laser toy to keep your cat entertained.",
+      "images": "https://i.imgur.com/9UmFevO.jpg"
+    },
+    {
+      "id": 11,
+      "name": "LunaCat Water Fountain",
+      "brand": "LunaCat",
+      "category": "Accessories",
+      "price": 34.99,
+      "description": "Fresh water fountain to encourage hydration.",
+      "images": "https://i.imgur.com/xJv1zQX.jpg"
+    },
+    {
+      "id": 12,
+      "name": "LunaCat Dental Chews",
+      "brand": "LunaCat",
+      "category": "Treats",
+      "price": 11.99,
+      "description": "Chewy treats that promote dental health.",
+      "images": "https://i.imgur.com/xiB1a2K.jpg"
+    },
+    {
+      "id": 13,
+      "name": "LunaCat Heated Pad",
+      "brand": "LunaCat",
+      "category": "Beds",
+      "price": 49.99,
+      "description": "Heated pad to keep your cat warm and comfortable.",
+      "images": "https://i.imgur.com/Z6G2aLV.jpg"
+    },
+    {
+      "id": 14,
+      "name": "LunaCat Travel Carrier",
+      "brand": "LunaCat",
+      "category": "Accessories",
+      "price": 59.99,
+      "description": "Secure and comfortable carrier for travel.",
+      "images": "https://i.imgur.com/KKlbwh1.jpg"
+    },
+    {
+      "id": 15,
+      "name": "LunaCat Window Perch",
+      "brand": "LunaCat",
+      "category": "Beds",
+      "price": 24.99,
+      "description": "Window perch for sunbathing and bird-watching.",
+      "images": "https://i.imgur.com/QlWnS4K.jpg"
+    },
+    {
+      "id": 16,
+      "name": "LunaCat Fur Remover Glove",
+      "brand": "LunaCat",
+      "category": "Grooming",
+      "price": 10.99,
+      "description": "Glove that removes loose fur and massages your cat.",
+      "images": "https://i.imgur.com/3gXO3sG.jpg"
+    },
+    {
+      "id": 17,
+      "name": "LunaCat Odor Control Litter",
+      "brand": "LunaCat",
+      "category": "Litter",
+      "price": 17.99,
+      "description": "High-performance litter that controls odors.",
+      "images": "https://i.imgur.com/J2Xa9Qu.jpg"
+    },
+    {
+      "id": 18,
+      "name": "LunaCat Nail Clippers",
+      "brand": "LunaCat",
+      "category": "Grooming",
+      "price": 8.99,
+      "description": "Safe and easy-to-use nail clippers for cats.",
+      "images": "https://i.imgur.com/8n8LB9n.jpg"
+    },
+    {
+      "id": 19,
+      "name": "LunaCat Cat Tree",
+      "brand": "LunaCat",
+      "category": "Furniture",
+      "price": 99.99,
+      "description": "Multi-level cat tree with scratching posts and hiding spots.",
+      "images": "https://i.imgur.com/L1HCIf2.jpg"
+    },
+    {
+      "id": 20,
+      "name": "LunaCat Cooling Mat",
+      "brand": "LunaCat",
+      "category": "Beds",
+      "price": 27.99,
+      "description": "Cooling mat to keep your cat comfortable in hot weather.",
+      "images": "https://i.imgur.com/y6GZ9E5.jpg"
+    }
+  ],
+
+  "dogproducts": [{}]
+}
