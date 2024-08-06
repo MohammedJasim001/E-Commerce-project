@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Premium Dog Food",
       "category": "Dog Food",
       "brand": "Pedigree",
@@ -12,7 +12,7 @@
       "images": "https://th.bing.com/th/id/OIP.hYWtZ5l2PyRGDnz46VGf8AAAAA?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Organic Cat Food",
       "category": "Cat Food",
       "brand": "Meow Mix",
@@ -23,7 +23,7 @@
       "images": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Cat Scratching Post",
       "category": "Cat Furniture",
       "brand": "Kitty Haven",
@@ -34,7 +34,7 @@
       "images": "https://th.bing.com/th/id/R.d0e0dc55b6479390ee24a6a987c78137?rik=WQ2lYLLyXSECKg&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f946184-center-1&ehk=o4gp2IxXVDs3neUeQadu05RX%2fNt9%2fWoIO8tuZUh4jCM%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Dog Leash",
       "category": "Dog Accessories",
       "brand": "Paw Patrol",
@@ -45,7 +45,7 @@
       "images": "https://th.bing.com/th/id/OIP.ODJL6wIHkqF3r4ElGjhlhAHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Cat Litter",
       "category": "Cat Supplies",
       "brand": "Clean Paws",
@@ -56,7 +56,7 @@
       "images": "https://www.thesprucepets.com/thmb/h1iiBNycOsUQn35R_hPujzE6gNg=/2896x1907/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-170455198-9265c1d5b5eb4e77a340c0c778d04043.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Dog Bed",
       "category": "Dog Furniture",
       "brand": "Comfy Canine",
@@ -76,93 +76,158 @@
       "cpssword": ""
     },
     {
-      "id": "e3f9"
+      "id": "25a1"
     },
     {
-      "id": "a18f"
+      "id": "4c6b"
     },
     {
-      "id": "acdb"
+      "id": "cf03"
     },
     {
-      "id": "efbc"
+      "id": "1aa6"
     },
     {
-      "id": "a94f"
+      "id": "e166"
     },
     {
-      "id": "ee94"
+      "id": "2f06"
     },
     {
-      "id": "46c0"
+      "id": "ccff"
     },
     {
-      "id": "347e"
+      "id": "a0af"
     },
     {
-      "id": "77ef"
+      "id": "7e12"
     },
     {
-      "id": "1747"
+      "id": "acaa"
     },
     {
-      "id": "53fa"
+      "id": "e726"
     },
     {
-      "id": "9713"
+      "id": "63e3"
     },
     {
-      "id": "1c6b"
+      "id": "8e54"
     },
     {
-      "id": "510b"
+      "id": "0a4c"
     },
     {
-      "id": "0385"
+      "id": "c651"
     },
     {
-      "id": "57b5"
+      "id": "404c"
     },
     {
-      "id": "ece2"
+      "id": "cbdd"
     },
     {
-      "id": "18a0"
+      "id": "85e4"
     },
     {
-      "id": "2222"
+      "id": "e1a2"
     },
     {
-      "id": "ffa7"
+      "id": "ac4a"
     },
     {
-      "id": "0979"
+      "id": "c55e"
     },
     {
-      "id": "a086"
+      "id": "b551"
     },
     {
-      "id": "748d"
+      "id": "812a"
     },
     {
-      "id": "59dc"
+      "id": "e60f"
     },
     {
-      "id": "742b"
+      "id": "ee45"
     },
     {
-      "id": "c753"
+      "id": "2e8e"
     },
     {
-      "id": "3d3c"
+      "id": "d467"
     },
     {
-      "id": "d2ba"
+      "id": "5c54"
+    },
+    {
+      "id": "7dba"
+    },
+    {
+      "id": "f02c"
+    },
+    {
+      "id": "1587"
+    },
+    {
+      "id": "8542"
+    },
+    {
+      "id": "f328"
+    },
+    {
+      "id": "0cec"
+    },
+    {
+      "id": "c7f2"
+    },
+    {
+      "id": "ab7c"
+    },
+    {
+      "id": "28cc"
+    },
+    {
+      "id": "b4b9"
+    },
+    {
+      "id": "8f62",
+      "name": "jasim",
+      "email": "das@gamail.com",
+      "password": "1254",
+      "cpassword": "1254"
+    },
+    {
+      "id": "423f",
+      "name": "erer",
+      "email": "fdsss@ty.bh",
+      "password": "1234",
+      "cpassword": "1234"
+    },
+    {
+      "id": "8c90",
+      "name": "jasim",
+      "email": "das@gamail.com",
+      "password": "asdf",
+      "cpassword": "asdf"
+    },
+    {
+      "id": "8182",
+      "name": "jasim",
+      "email": "das@gamail.com",
+      "password": "1254",
+      "cpassword": "1254"
+    },
+    {
+      "id": "560f",
+      "name": "jasim",
+      "email": "das@gamail.com",
+      "password": "aaaaa",
+      "cpassword": "aaaaa"
     }
   ],
   "catProducts": [
     {
-      "id": 1,
+      "id": "1",
       "name": " Premium Dry Food",
       "brand": "Royal Canin",
       "category": "Food",
@@ -171,7 +236,7 @@
       "images": "https://th.bing.com/th/id/OIP.9nT_bl04AIvOYhHKm3tVCwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Premium Wet Food ",
       "brand": "Meow Mix",
       "category": "Food",
@@ -180,7 +245,7 @@
       "images": "https://i5.walmartimages.com/asr/f22d7097-f43b-4b82-b442-c1c13b8f9e21.1ea14f52fe07044317601077aad142fb.jpeg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": " Feather Wand",
       "brand": "LunaCat's",
       "category": "Toys",
@@ -189,7 +254,7 @@
       "images": "https://i.pinimg.com/736x/5c/ba/60/5cba60ccc61603ad0f711acdc80c77a1.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": " Comfy Bed",
       "brand": "Chewy cat's",
       "category": "Beds",
@@ -198,7 +263,7 @@
       "images": "https://th.bing.com/th/id/R.8766d805fc31e8ccb4350743e50aeb1d?rik=MUde3St8k98CgA&riu=http%3a%2f%2fhomemydesign.com%2fwp-content%2fuploads%2f2015%2f04%2fwarm-and-cozy-cat-beds.jpg&ehk=mLUJAcATXbfNUxcl8scSE%2fO1zoxEjttPpXFJRU69k8g%3d&risl=&pid=ImgRaw&r=0c"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": " Self-Cleaning Litter Box",
       "brand": "Supertails",
       "category": "Litter Boxes",
@@ -207,7 +272,7 @@
       "images": "https://images-na.ssl-images-amazon.com/images/I/71fwpdo1LtL._AC_SL1500_.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Adjustable Harness",
       "brand": "LunaCat's",
       "category": "Accessories",
@@ -216,7 +281,7 @@
       "images": "https://images-na.ssl-images-amazon.com/images/I/71yVQu2cjEL._AC_SL1500_.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": " Interactive Laser Toy",
       "brand": "We Love Cats",
       "category": "Wired",
@@ -225,7 +290,7 @@
       "images": "https://i5.walmartimages.com/asr/0898c585-bf5f-4d12-9f66-c44d5918fde5.ecc89fdf1d7000cafaf97b34f2bc2636.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": " Water Fountain",
       "brand": "Chewy cat's",
       "category": "Accessories",
@@ -234,7 +299,7 @@
       "images": "https://th.bing.com/th/id/OIP.DqGqidbR1GzqdKdMjkJUrwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": " Travel Carrier",
       "brand": "We Love cats",
       "category": "Accessories",
@@ -243,7 +308,7 @@
       "images": "https://i5.walmartimages.com/asr/d309497a-72c0-49d4-a2c1-35b339a1c3c3_1.1fec1afa2172908bd1a301b1aeb06dae.jpeg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": " Window Perch",
       "brand": "PetSmart",
       "category": "Beds",
@@ -254,7 +319,7 @@
   ],
   "catFoodProducts": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Meow Mix Original Choice",
       "brand": "Meow",
       "category": "Dry Food",
@@ -263,7 +328,7 @@
       "image": "https://th.bing.com/th/id/OIP.xlGqyOXdRa08UNCNsCN0PgAAAA?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Meow Mix Tender Centers",
       "brand": "Meow",
       "category": "Dry Food",
@@ -272,7 +337,7 @@
       "image": "https://th.bing.com/th/id/OIP.2nvdTMXM0gEixfkkrWm0FQHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Meow Mix Irresistibles Soft",
       "brand": "Meow",
       "category": "Treats",
@@ -281,7 +346,7 @@
       "image": "https://th.bing.com/th/id/OIP.9TSJZoWghHcY08xES-r_NgHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Royal Canin Feline Health Nutrition",
       "brand": "Royal Canin",
       "category": "Dry Food",
@@ -290,7 +355,7 @@
       "image": "https://th.bing.com/th/id/R.11af40d4361782a5f1aa4612f669faf6?rik=nnEGSYRr3CzbsQ&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f1361236-center-1&ehk=UGS9KSRt4boxCjKi9btEJmA3L%2bd9r6MboS2jqt05Qa0%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Royal Canin Indoor Adult",
       "brand": "Royal Canin",
       "category": "Dry Food",
@@ -299,7 +364,7 @@
       "image": "https://th.bing.com/th/id/OIP.C6wmRcdSQ8KCUyHtgJitsAHaM3?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Royal Canin Hairball Care",
       "brand": "Royal Canin",
       "category": "Dry Food",
@@ -308,7 +373,7 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/71jRhnk5R5L._AC_SX679_.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Whiskas Dry Cat Food",
       "brand": "Whiskas",
       "category": "Dry Food",
@@ -317,7 +382,7 @@
       "image": "https://th.bing.com/th/id/OIP.v9mjLB1Ir0rt5jkhaKPR_QHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Whiskas Temptations Treats",
       "brand": "Whiskas",
       "category": "Treats",
@@ -326,7 +391,7 @@
       "image": "https://th.bing.com/th/id/OIP.WW0MSok7hcU0YJjDeKVO_AHaJ0?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Whiskas Purrfectly Chicken",
       "brand": "Whiskas",
       "category": "Wet Food",
@@ -335,7 +400,7 @@
       "image": "https://th.bing.com/th/id/OIP.xz3mTyiPFisGZs8T2xUlkgHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Meow Mix Simple Servings",
       "brand": "Meow",
       "category": "Wet Food",
@@ -344,7 +409,7 @@
       "image": "https://th.bing.com/th/id/OIP.6SMWaMKU8ZxmazH07O4REgHaJA?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Meow Mix Grain Free",
       "brand": "Meow",
       "category": "Dry Food",
@@ -353,7 +418,7 @@
       "image": "https://th.bing.com/th/id/OIP.nbbUXyOQk_6xke0gF9RLKAHaNk?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Royal Canin Kitten",
       "brand": "Royal Canin",
       "category": "Dry Food",
@@ -362,7 +427,7 @@
       "image": "https://th.bing.com/th/id/OIP.bOFBw3IFI4aMY1W-uWM99AHaH6?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Royal Canin Oral Care",
       "brand": "Royal Canin",
       "category": "Dry Food",
@@ -371,7 +436,7 @@
       "image": "https://th.bing.com/th/id/OIP.XrWoZ5tKrSqtJlm2hPBYfgAAAA?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Whiskas Grilled Slices",
       "brand": "Whiskas",
       "category": "Wet Food",
@@ -380,7 +445,7 @@
       "image": "https://th.bing.com/th/id/OIP.5MXcoBk19N_eAIDao7kSiQHaH_?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Whiskas Meaty Selections",
       "brand": "Whiskas",
       "category": "Dry Food",
@@ -391,7 +456,7 @@
   ],
   "catGroomingProducts": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Furminator deShedding Tool",
       "brand": "Furminator",
       "category": "Brushes",
@@ -400,7 +465,7 @@
       "image": "https://s7d1.scene7.com/is/image/PETCO/1362933-center-1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Hertzko Self Cleaning Slicker Brush",
       "brand": "Hertzko",
       "category": "Brushes",
@@ -409,7 +474,7 @@
       "image": "https://th.bing.com/th/id/OIP.XI3H_MJcPEJjKYAW0IQq2AHaEz?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Paws & Pals Dematting Comb",
       "brand": "Paws & Pals",
       "category": "Combs",
@@ -418,7 +483,7 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/41k2yZislYL.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Pet Republique Cat Nail Clippers",
       "brand": "Pet Republique",
       "category": "Nail Clippers",
@@ -427,7 +492,7 @@
       "image": "https://th.bing.com/th/id/OIP.FV-8Hoty2yD9kRP7dGTjTwHaHt?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Vet's Best Waterless Cat Bath",
       "brand": "Vet's Best",
       "category": "Shampoos",
@@ -436,7 +501,7 @@
       "image": "https://th.bing.com/th/id/OIP.N1EF3aYFOimRSaJXnH_B_gHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Burt's Bees Hypoallergenic Shampoo",
       "brand": "Burt's Bees",
       "category": "Shampoos",
@@ -445,7 +510,7 @@
       "image": "https://i5.walmartimages.com/seo/Burt-s-Bees-Natural-Cat-Care-Hypoallergenic-Shampoo-with-Shea-Butter-and-Honey_a9256d56-a6df-4d38-8fca-6528c2f9b723_1.1c69782e628b76311adfb63f706fe2b5.jpeg?odnHeight=372&odnWidth=372&odnBg=FFFFFF"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Earthbath All Natural Pet Shampoo",
       "brand": "Earthbath",
       "category": "Shampoos",
@@ -454,7 +519,7 @@
       "image": "https://i5.walmartimages.com/asr/24ab94af-bcd3-4103-9512-266072b0e879_1.a594778de456f954803f4785817786fc.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "PetHead Dry Clean Spray Shampoo",
       "brand": "PetHead",
       "category": "Shampoos",
@@ -463,7 +528,7 @@
       "image": "https://th.bing.com/th/id/OIP.TwhSZxMAE_Vd2RmIGxPYkgHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Four Paws Magic Coat Love Glove",
       "brand": "Four Paws",
       "category": "Brushes",
@@ -472,7 +537,7 @@
       "image": "https://th.bing.com/th/id/OIP.5doMF0lQ-IWznBabg8u0hgHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "GoPets Dematting Comb",
       "brand": "GoPets",
       "category": "Combs",
@@ -483,7 +548,7 @@
   ],
   "catAccessoriesAndLitters": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Litter Genie Plus Pail",
       "brand": "Litter Genie",
       "category": "Litter",
@@ -492,7 +557,7 @@
       "image": "https://petstrendstore.com/wp-content/uploads/2019/02/litter-genie-plus-pail-ultimate-cat-litter-disposal-system-locks-away-1024x1024.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Dr. Elsey's Precious Cat Ultra",
       "brand": "Dr. Elsey's",
       "category": "Litter",
@@ -501,7 +566,7 @@
       "image": "https://thepetstore.ae/cdn/shop/files/Dr.Elsey_sPreciousCatUltraHardClumpingScented99_DustFreecatlitter5.png?v=1693821647"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Tidy Cats Breeze Litter System",
       "brand": "Tidy Cats",
       "category": "Litter",
@@ -510,7 +575,7 @@
       "image": "https://th.bing.com/th/id/OIP.e7z9Wt754RtTO58l0mXgaQHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "PetSafe ScoopFree Self-Cleaning Litter Box",
       "brand": "PetSafe",
       "category": "Litter",
@@ -519,7 +584,7 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/81y1HEWX69L.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Catit Jumbo Hooded Cat Litter Pan",
       "brand": "Catit",
       "category": "Litter",
@@ -528,7 +593,7 @@
       "image": "https://images.north40.com/images/2225600/BA_catit_jumbo_hooded_cat_litter_pan_warmgray__2225600__.jpg?width=900&height=900"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Catit Flower Fountain",
       "brand": "Catit",
       "category": "Accessories",
@@ -537,7 +602,7 @@
       "image": "https://th.bing.com/th/id/R.5377ab729892f331f503f716cb40dbd9?rik=op49Fv7jX7Bj8w&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2506822-center-1&ehk=PtaeHixtr%2beVcjX2AoAjx1ffGWxrMewuShfHr6pP2WI%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "PetSafe Drinkwell Platinum Pet Fountain",
       "brand": "PetSafe",
       "category": "Accessories",
@@ -546,7 +611,7 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/91VtUYpC2XL._SL1500_.jpg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "K&H Pet Products Thermo-Kitty Bed",
       "brand": "K&H Pet Products",
       "category": "Accessories",
@@ -555,7 +620,7 @@
       "image": "https://img.chewy.com/is/catalog/100531_MAIN._AC_SL1500_V1479227144_.jpg"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "SmartyKat Skitter Critters Catnip Mice",
       "brand": "SmartyKat",
       "category": "Accessories",
@@ -564,7 +629,7 @@
       "image": "https://th.bing.com/th/id/OIP.sqoVWa8tFXHlz_CERA2IVgHaHZ?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Yeowww! Catnip Toy",
       "brand": "Yeowww!",
       "category": "Accessories",
@@ -573,7 +638,7 @@
       "image": "https://th.bing.com/th/id/OIP.p630_oOg-s4R6WItovZqoAHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Bergan Turbo Scratcher Cat Toy",
       "brand": "Bergan",
       "category": "Accessories",
@@ -582,7 +647,7 @@
       "image": "https://th.bing.com/th/id/OIP.f9GrOli2hapt8iQL8Z0mUgHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "PetFusion Ultimate Cat Scratcher Lounge",
       "brand": "PetFusion",
       "category": "Accessories",
@@ -591,7 +656,7 @@
       "image": "https://th.bing.com/th/id/OIP.Dj2w4yT2EM2cljvTZIiu5wHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "KONG Naturals Cat Scratcher",
       "brand": "KONG",
       "category": "Accessories",
@@ -600,7 +665,7 @@
       "image": "https://th.bing.com/th/id/OIP.4shpWK4qIMOWzxKWJKYB3AHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Petstages Tower of Tracks Cat Toy",
       "brand": "Petstages",
       "category": "Accessories",
@@ -611,7 +676,7 @@
   ],
   "dogProducts": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Blue Buffalo Life Protection Formula",
       "brand": "Blue Buffalo",
       "category": "Food",
@@ -620,7 +685,7 @@
       "image": "https://i5.walmartimages.com/asr/88799329-25b9-484f-a57b-cdba352f0f6f.5f884cfcf1d399211ca675f66896c3e4.jpeg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "PetSafe Easy Walk Harness",
       "brand": "PetSafe",
       "category": "Accessories",
@@ -629,7 +694,7 @@
       "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Merrick Texas Beef & Sweet Potato",
       "brand": "Merrick",
       "category": "Food",
@@ -638,7 +703,7 @@
       "image": "https://images.north40.com/images/1854281-P/BA_grain_free_real_texas_beef_sweet_potato_recipe_1854281.jpg?width=900&height=900"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "PetFusion Ultimate Dog Bed",
       "brand": "PetFusion",
       "category": "Beds",
@@ -647,7 +712,7 @@
       "image": "https://secure.img.wfcdn.com/lf/maxsquare/hash/21649/24307566/1/Ultimate-Dog-Lounge-PF-IBLParent.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Outward Hound Fun Feeder Dog Bowl",
       "brand": "Outward Hound",
       "category": "Accessories",
@@ -656,7 +721,7 @@
       "image": "https://img.chewy.com/is/image/catalog/85932_PT7._AC_SL1500_V1544629088_.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Premium Dog Food",
       "category": "Dog Food",
       "brand": "Pedigree",
@@ -669,7 +734,7 @@
   ],
   "dogfoods": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Acana Heritage Meats Formula",
       "brand": "Acana",
       "category": "Dry Food",
@@ -678,7 +743,7 @@
       "image": "https://i5.walmartimages.com/asr/9485cecc-83da-4866-bf81-2c23ac15fee7_2.40b79ef04d5e0aaddb5d5768457bbee9.jpeg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Blue Buffalo Wilderness High Protein",
       "brand": "Blue Buffalo",
       "category": "Dry Food",
@@ -687,7 +752,7 @@
       "image": "https://images-na.ssl-images-amazon.com/images/I/91l4YarQHlL._SL1500_.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Royal Canin Size Health Nutrition",
       "brand": "Royal Canin",
       "category": "Dry Food",
@@ -696,7 +761,7 @@
       "image": "https://media.hubo.be/img/Size-Health-Nutrition-Medium-Adult--7-jaar-hondenvoer-15kg_34476_000_1920x1440.jpg?base=images&sub=ha8&bottom=h5c&name=9115454832670.jpg&context=bWFzdGVyfGltYWdlc3wxNjgzOTd8aW1hZ2UvanBlZ3xpbWFnZXMvaGE4L2g1Yy85MTE1NDU0ODMyNjcwLmpwZ3w1ZjM2Yzg2ZTcyNzI0YzJhZmFmMzc5YmExZDE2Yzc5YjlhOGQzYTRiZWRhZmU5MzhhZTUyZjRjZDA3ZTk0ZWE4&attachment=true"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Wellness CORE RawRev High-Protein",
       "brand": "Wellness",
       "category": "Dry Food",
@@ -705,7 +770,7 @@
       "image": "https://m.media-amazon.com/images/I/71tGERDz42L.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Orijen Original Dry Dog Food",
       "brand": "Orijen",
       "category": "Dry Food",
@@ -714,7 +779,7 @@
       "image": "https://th.bing.com/th/id/OIP._Ii82iuFAK9sSo3Q8Z0G-wAAAA?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Nutro Ultra Adult Dry Dog Food",
       "brand": "Nutro",
       "category": "Dry Food",
@@ -723,7 +788,7 @@
       "image": "https://petstrendstore.com/wp-content/uploads/2019/01/nutro-ultra-adult-dry-dog-food-with-a-trio-of-proteins-from-chicken-lamb-and-1024x1024.jpg"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Hill's Science Diet Adult",
       "brand": "Hill's Science Diet",
       "category": "Dry Food",
@@ -732,7 +797,7 @@
       "image": "https://i5.walmartimages.com/asr/124e09fa-47ec-4083-9980-e4d2b4094091_1.39ba6e5d529e56976746e3c2a8f6abd7.jpeg"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Purina Pro Plan Savor Adult",
       "brand": "Purina Pro Plan",
       "category": "Dry Food",
@@ -741,7 +806,7 @@
       "image": "https://images.north40.com/images/48206/BA_purina_pro_plan_savor_adult_shredded_blend_beef_and_rice_formula_dry_dog_food_35lb_48206.jpg?width=900&height=900"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Canidae PURE Limited Ingredient",
       "brand": "Canidae",
       "category": "Dry Food",
@@ -750,7 +815,7 @@
       "image": "https://www.petfoodratings.org/wp-content/uploads/2020/03/CANIDAE-PURE-Grain-Free-Limited-Ingredient-Real-Lamb-amp-Pea-Dry-Dog-Food-4-lbs.-1024x1024.jpg"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Merrick Grain-Free Texas Beef",
       "brand": "Merrick",
       "category": "Dry Food",
@@ -759,7 +824,7 @@
       "image": "https://i5.walmartimages.com/asr/838fbb18-a6bc-4a04-9e25-8c571d2093cd_1.83ea85a07ed3fab9822f98e57a3ba1a8.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Nature's Logic Canine Chicken Meal",
       "brand": "Nature's Logic",
       "category": "Dry Food",
@@ -770,7 +835,7 @@
   ],
   "dogcaccessories": [
     {
-      "id": 1,
+      "id": "1",
       "name": "FURminator deShedding Tool",
       "brand": "FURminator",
       "category": "Grooming",
@@ -779,7 +844,7 @@
       "image": "https://s7d1.scene7.com/is/image/PETCO/1362933-center-1"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Ruffwear Front Range Dog Harness",
       "brand": "Ruffwear",
       "category": "Harnesses",
@@ -788,7 +853,7 @@
       "image": "https://cdn.shopify.com/s/files/1/0531/2475/9744/products/6_aff2746e-02c7-4784-86cb-8ad7e145640f.jpg?v=1615026107"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "MidWest Homes for Pets Dog Crate",
       "brand": "MidWest Homes for Pets",
       "category": "Crates",
@@ -797,7 +862,7 @@
       "image": "https://th.bing.com/th/id/OIP.s3tHlUEFWirZhF2RScsBqwAAAA?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Earth Rated Dog Poop Bags",
       "brand": "Earth Rated",
       "category": "Waste Disposal",
@@ -806,7 +871,7 @@
       "image": "https://i5.walmartimages.com/asr/96026281-7eb9-4699-9123-d31c22f7f0da_1.23bc75f9f501af45a91d36f97cbe3129.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Wahl Lithium Ion Pro Series Cordless Dog Clippers",
       "brand": "Wahl",
       "category": "Grooming",
@@ -815,7 +880,7 @@
       "image": "https://th.bing.com/th/id/OIP.acafuPGTaGqfrC_YNPWTQwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "PetSafe Easy Walk Harness",
       "brand": "PetSafe",
       "category": "Accessories",
@@ -824,7 +889,7 @@
       "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "PetFusion Ultimate Dog Bed",
       "brand": "PetFusion",
       "category": "Beds",

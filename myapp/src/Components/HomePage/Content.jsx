@@ -35,9 +35,11 @@ const Content = () => {
         
         <div className="font-serif text-xl md:text-4xl bg-green-950 h-20 text-white flex items-center justify-center gap-5 text-center">
             <h1>Get <span className="text-green-800 text-2xl md:text-4xl">10% off</span> your first order</h1>
+            <Link to={'/registration'}>
             <button className="border border-white text-lg md:text-xl w-[120px] md:w-[160px] h-10 md:h-12 rounded-md">
                 Join Pets Club
             </button>
+            </Link>
         </div>
     
         <div>

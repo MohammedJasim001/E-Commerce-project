@@ -12,7 +12,7 @@ const Products = ({ product }) => {
       <h1 className='text-2xl font-bold tracking-tight text-gray-900'>{product.name}</h1>
       <h1 className='text-base font-bold tracking-tight text-gray-900'>{product.brand}</h1>
       <h3>{product.description}</h3>
-      <h4 className='text-gray-900 text-lg font-semibold'>{product.price}</h4>
+      <h4 className='text-gray-900 text-lg font-semibold'>${product.price}</h4>
      
         <button className='text-gray-900 bg-blue-500 w-[150px] h-[35px] rounded-md '
         >Add to cart</button>

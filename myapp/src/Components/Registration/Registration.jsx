@@ -1,120 +1,107 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
-
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const Registration = () => {
+  const navigate = useNavigate(); // Initialize the useNavigate hook
 
-    axios.post('http://localhost:3000/prerson')
-          .then(res=>{
-            console.log(res)
-          })
+  const [input, setInput] = useState({
+    name: '',
+    email: '',
+    password: '',
+    cpassword: ''
+  });
 
-    const [input,setInput]=useState({
-        name:'',
-        email:'',
-        password:'',
-        cpassword:''
-    })
+  const [formErrors, setFormErrors] = useState({});
+  const [isSubmit, setIsSubmit] = useState(false);
 
-    const [formErrors,setFormErros]=useState({})
-    const [isSubmit,setIssubmit]=useState(false)
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormErrors(validate(input));
+    setIsSubmit(true);
+    if (Object.keys(formErrors).length === 0 && isSubmit) {
+     
+         
+          navigate('/signin'); 
+       }
+       console.log(input);
+       
+  };
 
-    
-      const handleSubmit =(e)=>{
-        e.preventDefault()
-        setFormErros(validate(input))
-        setIssubmit(true)    
-        
-        // axios.post('http://localhost:3000/prerson')
-        // .then(res=>{
-        //   console.log(res)
-        // })
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setInput({
+      ...input,
+      [name]: value
+    });
+  };
+
+
+
+  const validate = (values) => {
+    const errors = {};
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (!values.name) {
+      errors.name = 'Name is required';
     }
-
-    const handleChange=(e)=>{
-        const name=e.target.name;
-        const value=e.target.value
-        setInput({...input,
-          [name]:value
-          
-        })
+    if (!values.email) {
+      errors.email = 'Email is required';
+    } else if (!regex.test(values.email)) {
+      errors.email = 'Enter a valid Email';
     }
-
-    useEffect(()=>{
-      console.log(formErrors)
-      if(Object.keys(formErrors).length === 0 && isSubmit){
-        console.log(input)
-      }
-    },[formErrors])
-
-    const validate=(values)=>{
-      const errors={}
-      const regax=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i
-      if(!values.name){
-        errors.name='Name is required'
-      }
-      if(!values.email){
-        errors.email='Email is required'
-      }else if(!regax.test(values.email)){
-        errors.email='Enter a valid Email'
-      }
-      if(!values.password){
-        errors.password='Password is required'     
-      }else if(values.password.length <4){
-        errors.password='Password must be more than 4 characters'
-      }
-      if(!values.cpassword){
-        errors.cpassword='Confirm your password'
-      }else if(values.cpassword !== values.password){
-        errors.cpassword="Password did't match"
-      }
-      return errors
+    if (!values.password) {
+      errors.password = 'Password is required';
+    } else if (values.password.length < 4) {
+      errors.password = 'Password must be more than 4 characters';
     }
+    if (!values.cpassword) {
+      errors.cpassword = 'Confirm your password';
+    } else if (values.cpassword !== values.password) {
+      errors.cpassword = "Password didn't match";
+    }
+    return errors;
+  };
 
   return (
-    <div className='bg-white h-[100vh] flex items-center justify-center absolute top-0 w-[100%] bottom-0'>   
-        <form  className='flex flex-col items-center   w-[500px] h-[500px] justify-center rounded-md md:shadow-2xl '
-               >
-          <input className='border border-black h-12 w-[300px] rounded-md'
-            type="text" 
-            placeholder='Name'
-            name='name'
-            value={input.name}
-            onChange={handleChange}/>
-            <span>{formErrors.name}</span>
-            
-          <input className='border border-black mt-5 h-12 w-[300px] rounded-md'
-            type="email" 
-            placeholder='E-mail'
-            name='email'
-            value={input.email}
-            onChange={handleChange}/>
-            <span>{formErrors.email}</span>
+    <div className='bg-red-100 h-[100vh] flex items-center justify-center absolute top-0 w-[100%] bottom-0'>
+      <form onSubmit={handleSubmit}
+        className='flex flex-col items-center w-[450px] h-[450px] justify-center rounded-md md:shadow-2xl bg-white'>
+        <input className='border border-black h-12 w-[300px] rounded-md'
+          type="text"
+          placeholder='Name'
+          name='name'
+          value={input.name}
+          onChange={handleChange} />
+        <span className='text-red-600 text-sm'>{formErrors.name}</span>
 
-          <input className='border border-black mt-5 h-12 w-[300px] rounded-md'
-            type="password" 
-            placeholder='Password'
-            name='password'
-            value={input.password}
-            onChange={handleChange}/>
-            <span>{formErrors.password}</span>
+        <input className='border border-black mt-5 h-12 w-[300px] rounded-md'
+          type="email"
+          placeholder='E-mail'
+          name='email'
+          value={input.email}
+          onChange={handleChange} />
+        <span className='text-red-600 text-sm'>{formErrors.email}</span>
 
-          <input className='border border-black mt-5 h-12 w-[300px] rounded-md'
-            type="password" 
-            placeholder='Confirm Password'
-            name='cpassword'
-            value={input.cpassword}
-            onChange={handleChange}/>
-            <span>{formErrors.cpassword}</span>
-          <Link to={'/signin'}>
-            <button onClick={handleSubmit}
-              className='bg-blue-500 h-10 w-20 mt-5 rounded-md'
-              >Submit</button>
-          </Link>
-        </form>
+        <input className='border border-black mt-5 h-12 w-[300px] rounded-md'
+          type="password"
+          placeholder='Password'
+          name='password'
+          value={input.password}
+          onChange={handleChange} />
+        <span className='text-red-600 text-sm'>{formErrors.password}</span>
+
+        <input className='border border-black mt-5 h-12 w-[300px] rounded-md'
+          type="password"
+          placeholder='Confirm Password'
+          name='cpassword'
+          value={input.cpassword}
+          onChange={handleChange} />
+        <span className='text-red-600 text-sm'>{formErrors.cpassword}</span>
+
+        <button className='bg-blue-500 h-10 w-20 mt-5 rounded-md'>Submit</button>
+      </form>
     </div>
-  )
+  );
 }
 
-export default Registration
+export default Registration;

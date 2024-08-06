@@ -1,8 +1,8 @@
 import React from 'react'
-import insta from '../Assets/FooterIcons/instagram.png'
-import whatsapp from '../Assets/FooterIcons/whatsapp.png'
-import facebook from '../Assets/FooterIcons/facebook.png'
-import linkdein from '../Assets/FooterIcons/linkedin.png'
+// import insta from '../Assets/FooterIcons/instagram.png'
+// import whatsapp from '../Assets/FooterIcons/whatsapp.png'
+// import facebook from '../Assets/FooterIcons/facebook.png'
+// import linkdein from '../Assets/FooterIcons/linkedin.png'
 
 const Footer = () => {
   return (
@@ -33,10 +33,20 @@ const Footer = () => {
             <div className="md:w-1/4">
                 <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
                 <div className='flex w-10 '>
-                    <img src={insta} alt="" />
-                    <img src={whatsapp} alt="" />
-                    <img src={facebook} alt="" />
-                    <img src={linkdein} alt="" />
+                <div class="flex text-3xl gap-5">
+                    <a href="https://www.linkedin.com/feed/"
+                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110 border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
+                            class='bx hover:text-[#020617] text-[#FEBD59]  bxl-linkedin-square'></i></a>
+                    <a href="https://www.instagram.com/_jasim_at/"
+                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
+                            class='bx hover:text-[#020617] text-[#FEBD59] bxl-instagram-alt'></i></a>
+                    <a href="https://wa.me/7510180451"
+                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
+                            class='bx hover:text-[#020617] text-[#FEBD59] bxl-whatsapp'></i></a>
+                    <a href="https://github.com/MohammedJasim001"
+                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
+                            class='bx hover:text-[#020617] text-[#FEBD59] bxl-github'></i></a>
+                </div>
                 </div>
                 
             </div>

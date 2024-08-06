@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const SignIn = () => {
+  const [signin,setSignin]=useState({
+    password:'',
+    email:''
+  })
+  
+
   return (
     
-    <div className='h-[100vh] flex flex-col items-center justify-center bg-white absolute top-0 w-[100%] bottom-0'>
-       <form className='flex flex-col items-center justify-center rounded-md md:shadow-2xl h-[300px] w-[500px]'>
+    <div className='h-[100vh] flex flex-col items-center justify-center bg-red-200 absolute top-0 w-[100%] bottom-0'>
+       <form className='flex flex-col items-center justify-center rounded-md md:shadow-2xl h-[300px] w-[500px] bg-white'>
            
            <input className='border border-black  h-12 w-[300px] rounded-md'
                type="email" 
