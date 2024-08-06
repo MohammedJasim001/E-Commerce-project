@@ -73,8 +73,8 @@ const Registration = () => {
     }
 
   return (
-    <div className='bg-green-800 h-[100vh] flex items-center justify-center absolute top-0 w-[100%] bottom-0'>   
-        <form  className='flex flex-col items-center   w-[500px] h-[500px] justify-center rounded-md shadow-2xl '
+    <div className='bg-white h-[100vh] flex items-center justify-center absolute top-0 w-[100%] bottom-0'>   
+        <form  className='flex flex-col items-center   w-[500px] h-[500px] justify-center rounded-md md:shadow-2xl '
                >
           <input className='border border-black h-12 w-[300px] rounded-md'
             type="text" 

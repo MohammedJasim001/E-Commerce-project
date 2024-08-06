@@ -24,17 +24,6 @@
     },
     {
       "id": 3,
-      "name": "Dog Chew Toy",
-      "category": "Dog Toys",
-      "brand": "Chew Master",
-      "price": 14.99,
-      "stock": 80,
-      "description": "Durable rubber chew toy for aggressive chewers.",
-      "ratings": 4.3,
-      "images": "https://m.media-amazon.com/images/I/7190G7t0QZL._SL1500_.jpg"
-    },
-    {
-      "id": 4,
       "name": "Cat Scratching Post",
       "category": "Cat Furniture",
       "brand": "Kitty Haven",
@@ -45,7 +34,7 @@
       "images": "https://th.bing.com/th/id/R.d0e0dc55b6479390ee24a6a987c78137?rik=WQ2lYLLyXSECKg&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f946184-center-1&ehk=o4gp2IxXVDs3neUeQadu05RX%2fNt9%2fWoIO8tuZUh4jCM%3d&risl=&pid=ImgRaw&r=0"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Dog Leash",
       "category": "Dog Accessories",
       "brand": "Paw Patrol",
@@ -56,7 +45,7 @@
       "images": "https://th.bing.com/th/id/OIP.ODJL6wIHkqF3r4ElGjhlhAHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Cat Litter",
       "category": "Cat Supplies",
       "brand": "Clean Paws",
@@ -67,7 +56,7 @@
       "images": "https://www.thesprucepets.com/thmb/h1iiBNycOsUQn35R_hPujzE6gNg=/2896x1907/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-170455198-9265c1d5b5eb4e77a340c0c778d04043.jpg"
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "Dog Bed",
       "category": "Dog Furniture",
       "brand": "Comfy Canine",
@@ -76,39 +65,6 @@
       "description": "Orthopedic dog bed with memory foam.",
       "ratings": 4.8,
       "images": "https://i5.walmartimages.com/asr/f3142e66-9ca4-49db-a229-87a09f284f22_2.4c65b46849a5e3c2540824bacc75bb48.jpeg"
-    },
-    {
-      "id": 8,
-      "name": "Cat Collar",
-      "category": "Cat Accessories",
-      "brand": "Purrfect Fit",
-      "price": 12.99,
-      "stock": 75,
-      "description": "Adjustable cat collar with a bell.",
-      "ratings": 4.5,
-      "images": "https://lh6.googleusercontent.com/6REN7ne4Dt8PcYNfWCFUNsjg7Xep-g3n7FpeaDVEtX7zsyixi0dDRgM2kce5aYynRUKZ3uWRrJecdVRZCML_LSt08jkNON79uVVpt0_qzTClEERQhdxFIzOA8cl9jb373fH7Z8mk"
-    },
-    {
-      "id": 9,
-      "name": "Dog Shampoo",
-      "category": "Dog Grooming",
-      "brand": "Fur Fresh",
-      "price": 15.99,
-      "stock": 90,
-      "description": "Natural dog shampoo with aloe vera.",
-      "ratings": 4.6,
-      "images": "https://i5.walmartimages.com/asr/4b7aeb92-c0a0-442f-b9f4-1d71430cada4.a1e0ac5fbd8b38cea7805852086df05b.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
-    },
-    {
-      "id": 10,
-      "name": "Cat Brush",
-      "category": "Cat Grooming",
-      "brand": "Groom & Shine",
-      "price": 10.99,
-      "stock": 110,
-      "description": "Soft-bristle cat brush for gentle grooming.",
-      "ratings": 4.4,
-      "images": "https://m.media-amazon.com/images/I/71QMhV0794L._SL1500_.jpg"
     }
   ],
   "prerson": [
@@ -118,191 +74,763 @@
       "email": "",
       "password": "",
       "cpssword": ""
+    },
+    {
+      "id": "e3f9"
+    },
+    {
+      "id": "a18f"
+    },
+    {
+      "id": "acdb"
+    },
+    {
+      "id": "efbc"
+    },
+    {
+      "id": "a94f"
+    },
+    {
+      "id": "ee94"
+    },
+    {
+      "id": "46c0"
+    },
+    {
+      "id": "347e"
+    },
+    {
+      "id": "77ef"
+    },
+    {
+      "id": "1747"
+    },
+    {
+      "id": "53fa"
+    },
+    {
+      "id": "9713"
+    },
+    {
+      "id": "1c6b"
+    },
+    {
+      "id": "510b"
+    },
+    {
+      "id": "0385"
+    },
+    {
+      "id": "57b5"
+    },
+    {
+      "id": "ece2"
+    },
+    {
+      "id": "18a0"
+    },
+    {
+      "id": "2222"
+    },
+    {
+      "id": "ffa7"
+    },
+    {
+      "id": "0979"
+    },
+    {
+      "id": "a086"
+    },
+    {
+      "id": "748d"
+    },
+    {
+      "id": "59dc"
+    },
+    {
+      "id": "742b"
+    },
+    {
+      "id": "c753"
+    },
+    {
+      "id": "3d3c"
+    },
+    {
+      "id": "d2ba"
     }
   ],
-
   "catProducts": [
     {
       "id": 1,
-      "name": "LunaCat Premium Dry Food",
-      "brand": "LunaCat",
+      "name": " Premium Dry Food",
+      "brand": "Royal Canin",
       "category": "Food",
       "price": 19.99,
       "description": "High-protein, grain-free dry food for adult cats.",
-      "images": "https://images.unsplash.com/photo-1611657018811-54d5038e5465"
+      "images": "https://th.bing.com/th/id/OIP.9nT_bl04AIvOYhHKm3tVCwHaHa?rs=1&pid=ImgDetMain"
     },
     {
       "id": 2,
-      "name": "LunaCat Wet Food Variety Pack",
-      "brand": "LunaCat",
+      "name": "Premium Wet Food ",
+      "brand": "Meow Mix",
       "category": "Food",
       "price": 24.99,
       "description": "A variety pack of wet food with flavors like chicken, salmon, and turkey.",
-      "images": "https://i.imgur.com/D9GJrwE.jpg"
+      "images": "https://i5.walmartimages.com/asr/f22d7097-f43b-4b82-b442-c1c13b8f9e21.1ea14f52fe07044317601077aad142fb.jpeg"
     },
     {
       "id": 3,
-      "name": "LunaCat Organic Catnip",
-      "brand": "LunaCat",
-      "category": "Toys",
-      "price": 7.99,
-      "description": "100% organic catnip to drive your cat wild.",
-      "images": "https://i.imgur.com/Zr0W4IX.jpg"
-    },
-    {
-      "id": 4,
-      "name": "LunaCat Feather Wand",
-      "brand": "LunaCat",
+      "name": " Feather Wand",
+      "brand": "LunaCat's",
       "category": "Toys",
       "price": 12.99,
       "description": "Interactive feather wand toy for endless fun.",
-      "images": "https://i.imgur.com/SuVVE8k.jpg"
+      "images": "https://i.pinimg.com/736x/5c/ba/60/5cba60ccc61603ad0f711acdc80c77a1.jpg"
     },
     {
-      "id": 5,
-      "name": "LunaCat Comfy Bed",
-      "brand": "LunaCat",
+      "id": 4,
+      "name": " Comfy Bed",
+      "brand": "Chewy cat's",
       "category": "Beds",
       "price": 29.99,
       "description": "Ultra-soft bed with a plush lining for cozy naps.",
-      "images": "https://i.imgur.com/YfHCHCv.jpg"
+      "images": "https://th.bing.com/th/id/R.8766d805fc31e8ccb4350743e50aeb1d?rik=MUde3St8k98CgA&riu=http%3a%2f%2fhomemydesign.com%2fwp-content%2fuploads%2f2015%2f04%2fwarm-and-cozy-cat-beds.jpg&ehk=mLUJAcATXbfNUxcl8scSE%2fO1zoxEjttPpXFJRU69k8g%3d&risl=&pid=ImgRaw&r=0c"
     },
     {
-      "id": 6,
-      "name": "LunaCat Self-Cleaning Litter Box",
-      "brand": "LunaCat",
+      "id": 5,
+      "name": " Self-Cleaning Litter Box",
+      "brand": "Supertails",
       "category": "Litter Boxes",
       "price": 89.99,
       "description": "Automatic self-cleaning litter box to keep things tidy.",
-      "images": "https://i.imgur.com/Zo6HQ1m.jpg"
+      "images": "https://images-na.ssl-images-amazon.com/images/I/71fwpdo1LtL._AC_SL1500_.jpg"
     },
     {
-      "id": 7,
-      "name": "LunaCat Adjustable Harness",
-      "brand": "LunaCat",
+      "id": 6,
+      "name": "Adjustable Harness",
+      "brand": "LunaCat's",
       "category": "Accessories",
       "price": 14.99,
       "description": "Comfortable and secure harness for outdoor adventures.",
-      "images": "https://i.imgur.com/hgL8sOZ.jpg"
+      "images": "https://images-na.ssl-images-amazon.com/images/I/71yVQu2cjEL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 7,
+      "name": " Interactive Laser Toy",
+      "brand": "We Love Cats",
+      "category": "Wired",
+      "price": 15.99,
+      "description": "Automated laser toy to keep your cat entertained.",
+      "images": "https://i5.walmartimages.com/asr/0898c585-bf5f-4d12-9f66-c44d5918fde5.ecc89fdf1d7000cafaf97b34f2bc2636.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
     },
     {
       "id": 8,
-      "name": "LunaCat Scratching Post",
-      "brand": "LunaCat",
-      "category": "Scratching Posts",
-      "price": 39.99,
-      "description": "Durable scratching post with sisal rope.",
-      "images": "https://i.imgur.com/hk5fH7O.jpg"
-    },
-    {
-      "id": 9,
-      "name": "LunaCat Gourmet Treats",
-      "brand": "LunaCat",
-      "category": "Treats",
-      "price": 9.99,
-      "description": "Delicious gourmet treats made with real meat.",
-      "images": "https://i.imgur.com/ebnUn9E.jpg"
-    },
-    {
-      "id": 10,
-      "name": "LunaCat Interactive Laser Toy",
-      "brand": "LunaCat",
-      "category": "Toys",
-      "price": 15.99,
-      "description": "Automated laser toy to keep your cat entertained.",
-      "images": "https://i.imgur.com/9UmFevO.jpg"
-    },
-    {
-      "id": 11,
-      "name": "LunaCat Water Fountain",
-      "brand": "LunaCat",
+      "name": " Water Fountain",
+      "brand": "Chewy cat's",
       "category": "Accessories",
       "price": 34.99,
       "description": "Fresh water fountain to encourage hydration.",
-      "images": "https://i.imgur.com/xJv1zQX.jpg"
+      "images": "https://th.bing.com/th/id/OIP.DqGqidbR1GzqdKdMjkJUrwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": 12,
-      "name": "LunaCat Dental Chews",
-      "brand": "LunaCat",
-      "category": "Treats",
-      "price": 11.99,
-      "description": "Chewy treats that promote dental health.",
-      "images": "https://i.imgur.com/xiB1a2K.jpg"
-    },
-    {
-      "id": 13,
-      "name": "LunaCat Heated Pad",
-      "brand": "LunaCat",
-      "category": "Beds",
-      "price": 49.99,
-      "description": "Heated pad to keep your cat warm and comfortable.",
-      "images": "https://i.imgur.com/Z6G2aLV.jpg"
-    },
-    {
-      "id": 14,
-      "name": "LunaCat Travel Carrier",
-      "brand": "LunaCat",
+      "id": 9,
+      "name": " Travel Carrier",
+      "brand": "We Love cats",
       "category": "Accessories",
       "price": 59.99,
       "description": "Secure and comfortable carrier for travel.",
-      "images": "https://i.imgur.com/KKlbwh1.jpg"
+      "images": "https://i5.walmartimages.com/asr/d309497a-72c0-49d4-a2c1-35b339a1c3c3_1.1fec1afa2172908bd1a301b1aeb06dae.jpeg"
     },
     {
-      "id": 15,
-      "name": "LunaCat Window Perch",
-      "brand": "LunaCat",
+      "id": 10,
+      "name": " Window Perch",
+      "brand": "PetSmart",
       "category": "Beds",
       "price": 24.99,
       "description": "Window perch for sunbathing and bird-watching.",
-      "images": "https://i.imgur.com/QlWnS4K.jpg"
-    },
-    {
-      "id": 16,
-      "name": "LunaCat Fur Remover Glove",
-      "brand": "LunaCat",
-      "category": "Grooming",
-      "price": 10.99,
-      "description": "Glove that removes loose fur and massages your cat.",
-      "images": "https://i.imgur.com/3gXO3sG.jpg"
-    },
-    {
-      "id": 17,
-      "name": "LunaCat Odor Control Litter",
-      "brand": "LunaCat",
-      "category": "Litter",
-      "price": 17.99,
-      "description": "High-performance litter that controls odors.",
-      "images": "https://i.imgur.com/J2Xa9Qu.jpg"
-    },
-    {
-      "id": 18,
-      "name": "LunaCat Nail Clippers",
-      "brand": "LunaCat",
-      "category": "Grooming",
-      "price": 8.99,
-      "description": "Safe and easy-to-use nail clippers for cats.",
-      "images": "https://i.imgur.com/8n8LB9n.jpg"
-    },
-    {
-      "id": 19,
-      "name": "LunaCat Cat Tree",
-      "brand": "LunaCat",
-      "category": "Furniture",
-      "price": 99.99,
-      "description": "Multi-level cat tree with scratching posts and hiding spots.",
-      "images": "https://i.imgur.com/L1HCIf2.jpg"
-    },
-    {
-      "id": 20,
-      "name": "LunaCat Cooling Mat",
-      "brand": "LunaCat",
-      "category": "Beds",
-      "price": 27.99,
-      "description": "Cooling mat to keep your cat comfortable in hot weather.",
-      "images": "https://i.imgur.com/y6GZ9E5.jpg"
+      "images": "https://th.bing.com/th/id/OIP.HK38IhsJcGU19oG-G2GZVQHaHa?rs=1&pid=ImgDetMain"
     }
   ],
-
-  "dogproducts": [{}]
+  "catFoodProducts": [
+    {
+      "id": 1,
+      "name": "Meow Mix Original Choice",
+      "brand": "Meow",
+      "category": "Dry Food",
+      "price": 18.99,
+      "description": "Delicious dry cat food for everyday nutrition.",
+      "image": "https://th.bing.com/th/id/OIP.xlGqyOXdRa08UNCNsCN0PgAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 2,
+      "name": "Meow Mix Tender Centers",
+      "brand": "Meow",
+      "category": "Dry Food",
+      "price": 20.99,
+      "description": "Crunchy outside, tender inside dry cat food.",
+      "image": "https://th.bing.com/th/id/OIP.2nvdTMXM0gEixfkkrWm0FQHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 3,
+      "name": "Meow Mix Irresistibles Soft",
+      "brand": "Meow",
+      "category": "Treats",
+      "price": 5.99,
+      "description": "Soft, delicious treats for your feline friend.",
+      "image": "https://th.bing.com/th/id/OIP.9TSJZoWghHcY08xES-r_NgHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 4,
+      "name": "Royal Canin Feline Health Nutrition",
+      "brand": "Royal Canin",
+      "category": "Dry Food",
+      "price": 34.99,
+      "description": "Tailored nutrition for adult cats.",
+      "image": "https://th.bing.com/th/id/R.11af40d4361782a5f1aa4612f669faf6?rik=nnEGSYRr3CzbsQ&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f1361236-center-1&ehk=UGS9KSRt4boxCjKi9btEJmA3L%2bd9r6MboS2jqt05Qa0%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 5,
+      "name": "Royal Canin Indoor Adult",
+      "brand": "Royal Canin",
+      "category": "Dry Food",
+      "price": 32.99,
+      "description": "Specially formulated for indoor adult cats.",
+      "image": "https://th.bing.com/th/id/OIP.C6wmRcdSQ8KCUyHtgJitsAHaM3?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 6,
+      "name": "Royal Canin Hairball Care",
+      "brand": "Royal Canin",
+      "category": "Dry Food",
+      "price": 36.99,
+      "description": "Helps reduce hairball formation.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71jRhnk5R5L._AC_SX679_.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Whiskas Dry Cat Food",
+      "brand": "Whiskas",
+      "category": "Dry Food",
+      "price": 18.99,
+      "description": "Delicious dry cat food for everyday nutrition.",
+      "image": "https://th.bing.com/th/id/OIP.v9mjLB1Ir0rt5jkhaKPR_QHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 8,
+      "name": "Whiskas Temptations Treats",
+      "brand": "Whiskas",
+      "category": "Treats",
+      "price": 6.99,
+      "description": "Irresistible treats for your cat.",
+      "image": "https://th.bing.com/th/id/OIP.WW0MSok7hcU0YJjDeKVO_AHaJ0?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 9,
+      "name": "Whiskas Purrfectly Chicken",
+      "brand": "Whiskas",
+      "category": "Wet Food",
+      "price": 12.99,
+      "description": "Tender cuts of chicken in gravy.",
+      "image": "https://th.bing.com/th/id/OIP.xz3mTyiPFisGZs8T2xUlkgHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 10,
+      "name": "Meow Mix Simple Servings",
+      "brand": "Meow",
+      "category": "Wet Food",
+      "price": 14.99,
+      "description": "Convenient single-serve wet food cups.",
+      "image": "https://th.bing.com/th/id/OIP.6SMWaMKU8ZxmazH07O4REgHaJA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 11,
+      "name": "Meow Mix Grain Free",
+      "brand": "Meow",
+      "category": "Dry Food",
+      "price": 22.99,
+      "description": "Grain-free dry food for cats with food sensitivities.",
+      "image": "https://th.bing.com/th/id/OIP.nbbUXyOQk_6xke0gF9RLKAHaNk?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 12,
+      "name": "Royal Canin Kitten",
+      "brand": "Royal Canin",
+      "category": "Dry Food",
+      "price": 30.99,
+      "description": "Balanced nutrition for growing kittens.",
+      "image": "https://th.bing.com/th/id/OIP.bOFBw3IFI4aMY1W-uWM99AHaH6?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 13,
+      "name": "Royal Canin Oral Care",
+      "brand": "Royal Canin",
+      "category": "Dry Food",
+      "price": 35.99,
+      "description": "Supports dental health and reduces tartar formation.",
+      "image": "https://th.bing.com/th/id/OIP.XrWoZ5tKrSqtJlm2hPBYfgAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 14,
+      "name": "Whiskas Grilled Slices",
+      "brand": "Whiskas",
+      "category": "Wet Food",
+      "price": 16.99,
+      "description": "Grilled slices in gravy for a delicious meal.",
+      "image": "https://th.bing.com/th/id/OIP.5MXcoBk19N_eAIDao7kSiQHaH_?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 15,
+      "name": "Whiskas Meaty Selections",
+      "brand": "Whiskas",
+      "category": "Dry Food",
+      "price": 19.99,
+      "description": "Meaty dry food for a satisfying meal.",
+      "image": "https://yardlands.co.nz/wp-content/uploads/2022/09/WHISKAS-MEATY-SELECTIONS.jpg"
+    }
+  ],
+  "catGroomingProducts": [
+    {
+      "id": 1,
+      "name": "Furminator deShedding Tool",
+      "brand": "Furminator",
+      "category": "Brushes",
+      "price": 29.99,
+      "description": "Reduces shedding up to 90% with regular use.",
+      "image": "https://s7d1.scene7.com/is/image/PETCO/1362933-center-1"
+    },
+    {
+      "id": 2,
+      "name": "Hertzko Self Cleaning Slicker Brush",
+      "brand": "Hertzko",
+      "category": "Brushes",
+      "price": 19.99,
+      "description": "Easily removes loose hair and eliminates tangles.",
+      "image": "https://th.bing.com/th/id/OIP.XI3H_MJcPEJjKYAW0IQq2AHaEz?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 3,
+      "name": "Paws & Pals Dematting Comb",
+      "brand": "Paws & Pals",
+      "category": "Combs",
+      "price": 14.99,
+      "description": "Gently removes mats and tangles.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/41k2yZislYL.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pet Republique Cat Nail Clippers",
+      "brand": "Pet Republique",
+      "category": "Nail Clippers",
+      "price": 12.99,
+      "description": "Professional-grade nail clippers for safe trimming.",
+      "image": "https://th.bing.com/th/id/OIP.FV-8Hoty2yD9kRP7dGTjTwHaHt?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 5,
+      "name": "Vet's Best Waterless Cat Bath",
+      "brand": "Vet's Best",
+      "category": "Shampoos",
+      "price": 11.99,
+      "description": "Leave-in foam shampoo for cats.",
+      "image": "https://th.bing.com/th/id/OIP.N1EF3aYFOimRSaJXnH_B_gHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 6,
+      "name": "Burt's Bees Hypoallergenic Shampoo",
+      "brand": "Burt's Bees",
+      "category": "Shampoos",
+      "price": 10.99,
+      "description": "Gentle shampoo for sensitive skin.",
+      "image": "https://i5.walmartimages.com/seo/Burt-s-Bees-Natural-Cat-Care-Hypoallergenic-Shampoo-with-Shea-Butter-and-Honey_a9256d56-a6df-4d38-8fca-6528c2f9b723_1.1c69782e628b76311adfb63f706fe2b5.jpeg?odnHeight=372&odnWidth=372&odnBg=FFFFFF"
+    },
+    {
+      "id": 7,
+      "name": "Earthbath All Natural Pet Shampoo",
+      "brand": "Earthbath",
+      "category": "Shampoos",
+      "price": 15.99,
+      "description": "Natural and organic shampoo for cats.",
+      "image": "https://i5.walmartimages.com/asr/24ab94af-bcd3-4103-9512-266072b0e879_1.a594778de456f954803f4785817786fc.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff"
+    },
+    {
+      "id": 8,
+      "name": "PetHead Dry Clean Spray Shampoo",
+      "brand": "PetHead",
+      "category": "Shampoos",
+      "price": 13.99,
+      "description": "Convenient spray shampoo for quick clean-ups.",
+      "image": "https://th.bing.com/th/id/OIP.TwhSZxMAE_Vd2RmIGxPYkgHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 9,
+      "name": "Four Paws Magic Coat Love Glove",
+      "brand": "Four Paws",
+      "category": "Brushes",
+      "price": 8.99,
+      "description": "Gentle grooming glove for cats.",
+      "image": "https://th.bing.com/th/id/OIP.5doMF0lQ-IWznBabg8u0hgHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 10,
+      "name": "GoPets Dematting Comb",
+      "brand": "GoPets",
+      "category": "Combs",
+      "price": 17.99,
+      "description": "Professional grooming tool for removing mats and tangles.",
+      "image": "https://th.bing.com/th/id/OIP.uslsVyJsN2UhRUJtUGdLFgHaHa?rs=1&pid=ImgDetMain"
+    }
+  ],
+  "catAccessoriesAndLitters": [
+    {
+      "id": 1,
+      "name": "Litter Genie Plus Pail",
+      "brand": "Litter Genie",
+      "category": "Litter",
+      "price": 19.99,
+      "description": "Odor-control litter disposal system.",
+      "image": "https://petstrendstore.com/wp-content/uploads/2019/02/litter-genie-plus-pail-ultimate-cat-litter-disposal-system-locks-away-1024x1024.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Elsey's Precious Cat Ultra",
+      "brand": "Dr. Elsey's",
+      "category": "Litter",
+      "price": 17.99,
+      "description": "Clumping cat litter with superior odor control.",
+      "image": "https://thepetstore.ae/cdn/shop/files/Dr.Elsey_sPreciousCatUltraHardClumpingScented99_DustFreecatlitter5.png?v=1693821647"
+    },
+    {
+      "id": 3,
+      "name": "Tidy Cats Breeze Litter System",
+      "brand": "Tidy Cats",
+      "category": "Litter",
+      "price": 29.99,
+      "description": "Innovative litter system with pellets and pads.",
+      "image": "https://th.bing.com/th/id/OIP.e7z9Wt754RtTO58l0mXgaQHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 4,
+      "name": "PetSafe ScoopFree Self-Cleaning Litter Box",
+      "brand": "PetSafe",
+      "category": "Litter",
+      "price": 129.99,
+      "description": "Automatic litter box with disposable trays.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/81y1HEWX69L.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Catit Jumbo Hooded Cat Litter Pan",
+      "brand": "Catit",
+      "category": "Litter",
+      "price": 25.99,
+      "description": "Spacious hooded litter pan for large cats.",
+      "image": "https://images.north40.com/images/2225600/BA_catit_jumbo_hooded_cat_litter_pan_warmgray__2225600__.jpg?width=900&height=900"
+    },
+    {
+      "id": 6,
+      "name": "Catit Flower Fountain",
+      "brand": "Catit",
+      "category": "Accessories",
+      "price": 29.99,
+      "description": "Fun and functional water fountain for cats.",
+      "image": "https://th.bing.com/th/id/R.5377ab729892f331f503f716cb40dbd9?rik=op49Fv7jX7Bj8w&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2506822-center-1&ehk=PtaeHixtr%2beVcjX2AoAjx1ffGWxrMewuShfHr6pP2WI%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 7,
+      "name": "PetSafe Drinkwell Platinum Pet Fountain",
+      "brand": "PetSafe",
+      "category": "Accessories",
+      "price": 44.99,
+      "description": "Filtered water fountain for pets.",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91VtUYpC2XL._SL1500_.jpg"
+    },
+    {
+      "id": 8,
+      "name": "K&H Pet Products Thermo-Kitty Bed",
+      "brand": "K&H Pet Products",
+      "category": "Accessories",
+      "price": 49.99,
+      "description": "Heated bed for cats to stay warm and cozy.",
+      "image": "https://img.chewy.com/is/catalog/100531_MAIN._AC_SL1500_V1479227144_.jpg"
+    },
+    {
+      "id": 9,
+      "name": "SmartyKat Skitter Critters Catnip Mice",
+      "brand": "SmartyKat",
+      "category": "Accessories",
+      "price": 5.99,
+      "description": "Catnip-filled mice for fun and play.",
+      "image": "https://th.bing.com/th/id/OIP.sqoVWa8tFXHlz_CERA2IVgHaHZ?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 10,
+      "name": "Yeowww! Catnip Toy",
+      "brand": "Yeowww!",
+      "category": "Accessories",
+      "price": 8.99,
+      "description": "Durable and catnip-filled toy for cats.",
+      "image": "https://th.bing.com/th/id/OIP.p630_oOg-s4R6WItovZqoAHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 11,
+      "name": "Bergan Turbo Scratcher Cat Toy",
+      "brand": "Bergan",
+      "category": "Accessories",
+      "price": 16.99,
+      "description": "Interactive scratcher with ball track.",
+      "image": "https://th.bing.com/th/id/OIP.f9GrOli2hapt8iQL8Z0mUgHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 12,
+      "name": "PetFusion Ultimate Cat Scratcher Lounge",
+      "brand": "PetFusion",
+      "category": "Accessories",
+      "price": 49.99,
+      "description": "Durable cardboard scratcher and lounge.",
+      "image": "https://th.bing.com/th/id/OIP.Dj2w4yT2EM2cljvTZIiu5wHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 13,
+      "name": "KONG Naturals Cat Scratcher",
+      "brand": "KONG",
+      "category": "Accessories",
+      "price": 9.99,
+      "description": "Eco-friendly scratcher for cats.",
+      "image": "https://th.bing.com/th/id/OIP.4shpWK4qIMOWzxKWJKYB3AHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 14,
+      "name": "Petstages Tower of Tracks Cat Toy",
+      "brand": "Petstages",
+      "category": "Accessories",
+      "price": 14.99,
+      "description": "Interactive toy with multiple levels and balls.",
+      "image": "https://www.sheknows.com/wp-content/uploads/2023/02/petstages-tower-tracks-toy.jpg"
+    }
+  ],
+  "dogProducts": [
+    {
+      "id": 1,
+      "name": "Blue Buffalo Life Protection Formula",
+      "brand": "Blue Buffalo",
+      "category": "Food",
+      "price": 49.99,
+      "description": "High-quality dry dog food with real meat.",
+      "image": "https://i5.walmartimages.com/asr/88799329-25b9-484f-a57b-cdba352f0f6f.5f884cfcf1d399211ca675f66896c3e4.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "PetSafe Easy Walk Harness",
+      "brand": "PetSafe",
+      "category": "Accessories",
+      "price": 26.99,
+      "description": "No-pull harness for easier walks.",
+      "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 3,
+      "name": "Merrick Texas Beef & Sweet Potato",
+      "brand": "Merrick",
+      "category": "Food",
+      "price": 54.99,
+      "description": "Grain-free dry dog food with beef and sweet potatoes.",
+      "image": "https://images.north40.com/images/1854281-P/BA_grain_free_real_texas_beef_sweet_potato_recipe_1854281.jpg?width=900&height=900"
+    },
+    {
+      "id": 4,
+      "name": "PetFusion Ultimate Dog Bed",
+      "brand": "PetFusion",
+      "category": "Beds",
+      "price": 89.99,
+      "description": "Memory foam dog bed for comfort and support.",
+      "image": "https://secure.img.wfcdn.com/lf/maxsquare/hash/21649/24307566/1/Ultimate-Dog-Lounge-PF-IBLParent.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Outward Hound Fun Feeder Dog Bowl",
+      "brand": "Outward Hound",
+      "category": "Accessories",
+      "price": 14.99,
+      "description": "Slow feeder bowl to improve digestion.",
+      "image": "https://img.chewy.com/is/image/catalog/85932_PT7._AC_SL1500_V1544629088_.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Premium Dog Food",
+      "category": "Dog Food",
+      "brand": "Pedigree",
+      "price": 49.99,
+      "stock": 150,
+      "description": "High-quality dry dog food with natural ingredients.",
+      "ratings": 4.7,
+      "image": "https://th.bing.com/th/id/OIP.rOmRdn2BEmb9lfqnSGKk6AAAAA?rs=1&pid=ImgDetMain"
+    }
+  ],
+  "dogfoods": [
+    {
+      "id": 1,
+      "name": "Acana Heritage Meats Formula",
+      "brand": "Acana",
+      "category": "Dry Food",
+      "description": "A grain-free dry dog food made with beef, pork, and lamb.",
+      "price": 64.99,
+      "image": "https://i5.walmartimages.com/asr/9485cecc-83da-4866-bf81-2c23ac15fee7_2.40b79ef04d5e0aaddb5d5768457bbee9.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Blue Buffalo Wilderness High Protein",
+      "brand": "Blue Buffalo",
+      "category": "Dry Food",
+      "description": "High-protein, grain-free dry dog food with real chicken.",
+      "price": 55.99,
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91l4YarQHlL._SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Royal Canin Size Health Nutrition",
+      "brand": "Royal Canin",
+      "category": "Dry Food",
+      "description": "Specially formulated dry dog food for large breed dogs.",
+      "price": 68.99,
+      "image": "https://media.hubo.be/img/Size-Health-Nutrition-Medium-Adult--7-jaar-hondenvoer-15kg_34476_000_1920x1440.jpg?base=images&sub=ha8&bottom=h5c&name=9115454832670.jpg&context=bWFzdGVyfGltYWdlc3wxNjgzOTd8aW1hZ2UvanBlZ3xpbWFnZXMvaGE4L2g1Yy85MTE1NDU0ODMyNjcwLmpwZ3w1ZjM2Yzg2ZTcyNzI0YzJhZmFmMzc5YmExZDE2Yzc5YjlhOGQzYTRiZWRhZmU5MzhhZTUyZjRjZDA3ZTk0ZWE4&attachment=true"
+    },
+    {
+      "id": 4,
+      "name": "Wellness CORE RawRev High-Protein",
+      "brand": "Wellness",
+      "category": "Dry Food",
+      "description": "High-protein, grain-free dry dog food with raw bites.",
+      "price": 75.99,
+      "image": "https://m.media-amazon.com/images/I/71tGERDz42L.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Orijen Original Dry Dog Food",
+      "brand": "Orijen",
+      "category": "Dry Food",
+      "description": "Grain-free dry dog food with chicken, turkey, and fish.",
+      "price": 84.99,
+      "image": "https://th.bing.com/th/id/OIP._Ii82iuFAK9sSo3Q8Z0G-wAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 6,
+      "name": "Nutro Ultra Adult Dry Dog Food",
+      "brand": "Nutro",
+      "category": "Dry Food",
+      "description": "Premium dry dog food with chicken, lamb, and salmon.",
+      "price": 53.99,
+      "image": "https://petstrendstore.com/wp-content/uploads/2019/01/nutro-ultra-adult-dry-dog-food-with-a-trio-of-proteins-from-chicken-lamb-and-1024x1024.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Hill's Science Diet Adult",
+      "brand": "Hill's Science Diet",
+      "category": "Dry Food",
+      "description": "Veterinarian-recommended dry dog food for adult dogs.",
+      "price": 49.99,
+      "image": "https://i5.walmartimages.com/asr/124e09fa-47ec-4083-9980-e4d2b4094091_1.39ba6e5d529e56976746e3c2a8f6abd7.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Purina Pro Plan Savor Adult",
+      "brand": "Purina Pro Plan",
+      "category": "Dry Food",
+      "description": "Dry dog food with a blend of crunchy kibble and tender meaty pieces.",
+      "price": 47.99,
+      "image": "https://images.north40.com/images/48206/BA_purina_pro_plan_savor_adult_shredded_blend_beef_and_rice_formula_dry_dog_food_35lb_48206.jpg?width=900&height=900"
+    },
+    {
+      "id": 9,
+      "name": "Canidae PURE Limited Ingredient",
+      "brand": "Canidae",
+      "category": "Dry Food",
+      "description": "Grain-free dry dog food with limited ingredients for sensitive dogs.",
+      "price": 69.99,
+      "image": "https://www.petfoodratings.org/wp-content/uploads/2020/03/CANIDAE-PURE-Grain-Free-Limited-Ingredient-Real-Lamb-amp-Pea-Dry-Dog-Food-4-lbs.-1024x1024.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Merrick Grain-Free Texas Beef",
+      "brand": "Merrick",
+      "category": "Dry Food",
+      "description": "Grain-free dry dog food with real deboned beef.",
+      "price": 64.99,
+      "image": "https://i5.walmartimages.com/asr/838fbb18-a6bc-4a04-9e25-8c571d2093cd_1.83ea85a07ed3fab9822f98e57a3ba1a8.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
+    },
+    {
+      "id": 11,
+      "name": "Nature's Logic Canine Chicken Meal",
+      "brand": "Nature's Logic",
+      "category": "Dry Food",
+      "description": "Dry dog food made with natural ingredients and chicken meal.",
+      "price": 72.99,
+      "image": "https://th.bing.com/th/id/OIP.Am1xGXrCGvZWGO0hJw-3tgHaKs?rs=1&pid=ImgDetMain"
+    }
+  ],
+  "dogcaccessories": [
+    {
+      "id": 1,
+      "name": "FURminator deShedding Tool",
+      "brand": "FURminator",
+      "category": "Grooming",
+      "description": "Reduces shedding up to 90% by removing loose hair.",
+      "price": 29.99,
+      "image": "https://s7d1.scene7.com/is/image/PETCO/1362933-center-1"
+    },
+    {
+      "id": 2,
+      "name": "Ruffwear Front Range Dog Harness",
+      "brand": "Ruffwear",
+      "category": "Harnesses",
+      "description": "Padded, comfortable dog harness for everyday use.",
+      "price": 39.99,
+      "image": "https://cdn.shopify.com/s/files/1/0531/2475/9744/products/6_aff2746e-02c7-4784-86cb-8ad7e145640f.jpg?v=1615026107"
+    },
+    {
+      "id": 3,
+      "name": "MidWest Homes for Pets Dog Crate",
+      "brand": "MidWest Homes for Pets",
+      "category": "Crates",
+      "description": "Foldable metal dog crate with double doors and divider panel.",
+      "price": 79.99,
+      "image": "https://th.bing.com/th/id/OIP.s3tHlUEFWirZhF2RScsBqwAAAA?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 4,
+      "name": "Earth Rated Dog Poop Bags",
+      "brand": "Earth Rated",
+      "category": "Waste Disposal",
+      "description": "Leak-proof and biodegradable dog poop bags.",
+      "price": 14.99,
+      "image": "https://i5.walmartimages.com/asr/96026281-7eb9-4699-9123-d31c22f7f0da_1.23bc75f9f501af45a91d36f97cbe3129.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
+    },
+    {
+      "id": 5,
+      "name": "Wahl Lithium Ion Pro Series Cordless Dog Clippers",
+      "brand": "Wahl",
+      "category": "Grooming",
+      "description": "Cordless dog clippers for grooming at home.",
+      "price": 59.99,
+      "image": "https://th.bing.com/th/id/OIP.acafuPGTaGqfrC_YNPWTQwHaHa?rs=1&pid=ImgDetMain"
+    },
+    {
+      "id": 6,
+      "name": "PetSafe Easy Walk Harness",
+      "brand": "PetSafe",
+      "category": "Accessories",
+      "price": 26.99,
+      "description": "No-pull harness for easier walks.",
+      "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+      "id": 7,
+      "name": "PetFusion Ultimate Dog Bed",
+      "brand": "PetFusion",
+      "category": "Beds",
+      "price": 89.99,
+      "description": "Memory foam dog bed for comfort and support.",
+      "image": "https://secure.img.wfcdn.com/lf/maxsquare/hash/21649/24307566/1/Ultimate-Dog-Lounge-PF-IBLParent.jpg"
+    }
+  ]
 }

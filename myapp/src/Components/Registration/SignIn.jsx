@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const SignIn = () => {
   return (
     
-    <div className='h-[100vh] flex flex-col items-center justify-center bg-yellow-800 absolute top-0 w-[100%] bottom-0'>
-       <form className='flex flex-col items-center justify-center rounded-md shadow-2xl h-[300px] w-[500px]'>
+    <div className='h-[100vh] flex flex-col items-center justify-center bg-white absolute top-0 w-[100%] bottom-0'>
+       <form className='flex flex-col items-center justify-center rounded-md md:shadow-2xl h-[300px] w-[500px]'>
            
            <input className='border border-black  h-12 w-[300px] rounded-md'
                type="email" 
