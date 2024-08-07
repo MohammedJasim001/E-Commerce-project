@@ -33,19 +33,19 @@ const Footer = () => {
             <div className="md:w-1/4">
                 <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
                 <div className='flex w-10 '>
-                <div class="flex text-3xl gap-5">
+                <div className="flex text-3xl gap-5">
                     <a href="https://www.linkedin.com/feed/"
-                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110 border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
-                            class='bx hover:text-[#020617] text-[#FEBD59]  bxl-linkedin-square'></i></a>
+                        className="flex items-center justify-center  border-2 border-white hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-white"><i
+                            className='bx hover:text-[#020617] text-white  bxl-linkedin-square'></i></a>
                     <a href="https://www.instagram.com/_jasim_at/"
-                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
-                            class='bx hover:text-[#020617] text-[#FEBD59] bxl-instagram-alt'></i></a>
+                        className="flex items-center justify-center   border-2 border-white hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-white"><i
+                            className='bx hover:text-[#020617] text-white bxl-instagram-alt'></i></a>
                     <a href="https://wa.me/7510180451"
-                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
-                            class='bx hover:text-[#020617] text-[#FEBD59] bxl-whatsapp'></i></a>
+                        className="flex items-center justify-center   border-2 border-white hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-white"><i
+                            className='bx hover:text-[#020617] text-white bxl-whatsapp'></i></a>
                     <a href="https://github.com/MohammedJasim001"
-                        class="flex items-center justify-center duration-300 ease-in-out transform hover:scale-110  border-2 border-[#FEBD59] hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-[#FEBD59]"><i
-                            class='bx hover:text-[#020617] text-[#FEBD59] bxl-github'></i></a>
+                        className="flex items-center justify-center   border-2 border-white hover:border-[#020617] h-[50px] w-[50px] rounded-full bg-[#020617] hover:bg-white"><i
+                            className='bx hover:text-[#020617] text-white bxl-github'></i></a>
                 </div>
                 </div>
                 

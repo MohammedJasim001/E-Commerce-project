@@ -1,11 +1,11 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
 
-const Products = ({ product }) => {
+const AllProuducts = ({product}) => {
+    
   return (
     <div className=' bg-white border  h-[250px] w-[90%] border-gray-200 rounded-lg shadow-lg ml-5 md:ml-10 flex'>
     <div>
-      <img className="w-[200px] h-[200px] gap-2 rounded-lg m-auto mt-3"
+      <img className="w-[200px] gap-2 rounded-lg m-auto mt-3"
         src={product.image} alt="" />
     </div>
     <div className='flex flex-col gap-[10px] ml-10'>
@@ -20,7 +20,7 @@ const Products = ({ product }) => {
     
       
   </div>
-  );
-};
+  )
+}
 
-export default Products;
+export default AllProuducts

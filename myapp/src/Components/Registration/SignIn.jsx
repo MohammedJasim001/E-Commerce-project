@@ -1,24 +1,67 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
+import { CheckUSer } from './Logine'
+import axios from 'axios'
 
 const SignIn = () => {
+  const params =useNavigate()
+  const [loggine,isLoggine]=useState([])
+  
   const [signin,setSignin]=useState({
     password:'',
     email:''
   })
-  
 
+const handleSubmit =async (e)=>{
+  e.preventDefault();
+try{
+ const res = await  axios.get("http://localhost:3000/person")
+  isLoggine(res.data)
+ const user = loggine.find((e)=>{
+      return e.email==signin.email && e.password==signin.password
+  })
+  
+  if(user){
+    
+    localStorage.setItem("id",user.id)
+   
+    params("/")
+    window.location.reload()
+  }
+  
+}catch(err){
+  console.log("err".err);
+ 
+}
+}
+
+function handleChange(e){
+  setSignin({
+    ...signin,
+    [e.target.name]:e.target.value
+  })
+  
+  
+}
   return (
     
     <div className='h-[100vh] flex flex-col items-center justify-center bg-red-200 absolute top-0 w-[100%] bottom-0'>
-       <form className='flex flex-col items-center justify-center rounded-md md:shadow-2xl h-[300px] w-[500px] bg-white'>
+       <form onSubmit={handleSubmit} className='flex flex-col items-center justify-center rounded-md md:shadow-2xl h-[300px] w-[500px] bg-white'>
            
            <input className='border border-black  h-12 w-[300px] rounded-md'
                type="email" 
-               placeholder='Email'/>
+               placeholder='Email'
+               name='email'
+               onChange={handleChange}
+               value={signin.email}
+               />
               
            
-           <input className='border border-black  h-12 w-[300px] rounded-md mt-6'
+           <input
+           onChange={handleChange}
+           name='password'
+            value={signin.password} 
+           className='border border-black  h-12 w-[300px] rounded-md mt-6'
            type="password" 
            placeholder='Password'/>
            <button className='bg-blue-500 h-10 w-20 mt-5 rounded-md'>Sign In</button>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { AddPersonTO } from './Logine';
 
 const Registration = () => {
   const navigate = useNavigate(); // Initialize the useNavigate hook
@@ -21,7 +21,7 @@ const Registration = () => {
     setIsSubmit(true);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
      
-         
+      AddPersonTO(input)
           navigate('/signin'); 
        }
        console.log(input);
