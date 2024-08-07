@@ -10,6 +10,7 @@ import Dog from '../ProductsDog/Dog'
 import Navbar from '../HomePage/Navbar'
 import Footer from '../HomePage/Footer'
 import All from '../AllProducts/All'
+import ProductLists from '../ProductLists/ProductLists'
 
 
 
@@ -26,6 +27,7 @@ const Main = () => {
         <Route path='/cat' element={<Cat/>}/>
         <Route path='/dog' element={<Dog/>}/>
         <Route path='/allproducts' element={<All/>}/>
+        <Route path='productdetails/:userId' element={<ProductLists/>}/>
        
       </Routes>
       <Footer/>

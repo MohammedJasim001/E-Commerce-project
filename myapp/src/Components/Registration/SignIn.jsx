@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useNavigate, useParams } from 'react-router-dom'
-import { CheckUSer } from './Logine'
+import { Link, useNavigate,} from 'react-router-dom'
 import axios from 'axios'
 
 const SignIn = () => {
@@ -18,7 +17,7 @@ try{
  const res = await  axios.get("http://localhost:3000/person")
   isLoggine(res.data)
  const user = loggine.find((e)=>{
-      return e.email==signin.email && e.password==signin.password
+      return e.email===signin.email && e.password===signin.password
   })
   
   if(user){

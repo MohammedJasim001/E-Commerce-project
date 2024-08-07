@@ -60,8 +60,6 @@
       "description": "No-pull harness for easier walks.",
       "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0"
     },
-   
-   
     {
       "id": "7",
       "name": "Whiskas Dry Cat Food",
@@ -89,7 +87,6 @@
       "description": "Innovative litter system with pellets and pads.",
       "image": "https://th.bing.com/th/id/OIP.e7z9Wt754RtTO58l0mXgaQHaHa?rs=1&pid=ImgDetMain"
     },
-  
     {
       "id": "10",
       "name": "Whiskas Temptations Treats",
@@ -108,7 +105,6 @@
       "description": "Supports dental health and reduces tartar formation.",
       "image": "https://th.bing.com/th/id/OIP.XrWoZ5tKrSqtJlm2hPBYfgAAAA?rs=1&pid=ImgDetMain"
     },
-   
     {
       "id": "12",
       "name": "Whiskas Grilled Slices",
@@ -163,7 +159,6 @@
       "description": "Clumping cat litter with superior odor control.",
       "image": "https://thepetstore.ae/cdn/shop/files/Dr.Elsey_sPreciousCatUltraHardClumpingScented99_DustFreecatlitter5.png?v=1693821647"
     },
-   
     {
       "id": "18",
       "name": "K&H Pet Products Thermo-Kitty Bed",
@@ -238,7 +233,6 @@
       "price": 53.99,
       "image": "https://petstrendstore.com/wp-content/uploads/2019/01/nutro-ultra-adult-dry-dog-food-with-a-trio-of-proteins-from-chicken-lamb-and-1024x1024.jpg"
     },
-   
     {
       "id": "26",
       "name": "Earth Rated Dog Poop Bags",
@@ -257,7 +251,6 @@
       "price": 59.99,
       "image": "https://th.bing.com/th/id/OIP.acafuPGTaGqfrC_YNPWTQwHaHa?rs=1&pid=ImgDetMain"
     },
-  
     {
       "id": "28",
       "name": "Meow Mix Tender Centers",
@@ -266,7 +259,8 @@
       "price": 20.99,
       "description": "Crunchy outside, tender inside dry cat food.",
       "image": "https://th.bing.com/th/id/OIP.2nvdTMXM0gEixfkkrWm0FQHaHa?rs=1&pid=ImgDetMain"
-    }, {
+    },
+    {
       "id": "29",
       "name": "Royal Canin Feline Health Nutrition",
       "brand": "Royal Canin",
@@ -292,46 +286,12 @@
       "cpassword": "aaaa"
     },
     {
-      "id": "1c97",
+      "id": "2f20",
       "name": "salman",
       "email": "salman@gmail.com",
-      "password": "sasa",
-      "cpassword": "sasa"
-    },
-    {
-      "id": "1fab",
-      "name": "aaa",
-      "email": "aaa@gmail.com",
-      "password": "aaaa",
-      "cpassword": "aaaa"
-    },
-    {
-      "id": "f8e2",
-      "name": "jasim",
-      "email": "dass@gamail.com",
-      "password": "aaaa",
-      "cpassword": "aaaa"
-    },
-    {
-      "id": "8679",
-      "name": "jasim",
-      "email": "das@gamail.com",
       "password": "asdf",
-      "cpassword": "asdf"
-    },
-    {
-      "id": "e24d",
-      "name": "asdf",
-      "email": "asdf@gmil.com",
-      "password": "asdf",
-      "cpassword": "asdf"
-    },
-    {
-      "id": "4d74",
-      "name": "cxvc",
-      "email": "fdsss@ty.bh",
-      "password": "sasa",
-      "cpassword": "sasa"
+      "cpassword": "asdf",
+      "cart": []
     }
   ]
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import signout from '../Assets/signout.png'
 import admin from "../Assets/admin-icon.png";
 import cart from "../Assets/cart-icon.png";
 
@@ -31,11 +31,11 @@ const Navbar = () => {
   
     <div className="flex items-center space-x-4 ">
      {isLogine ?  
-     <div className="flex">
-      <button onClick={handleLogout} className="hidden md:block bg-black text-white p-2 rounded-lg">
-      LogOut
-     </button>
-     <img className="w-6 md:w-8 ml-2 " src={admin} alt="admin" />
+     <div className="flex items-center">
+        <img onClick={handleLogout}
+          className="w-6 md:w-8 ml-2 " src={signout} alt="admin" />
+        <h2 className="hidden sm:block ml-2">LogOut</h2>
+   
 
      </div>
      

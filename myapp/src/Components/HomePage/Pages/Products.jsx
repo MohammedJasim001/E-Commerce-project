@@ -1,9 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router";
+
 
 const Products = ({ product }) => {
+  const navigate=useNavigate()
   return (
-    <div className=' bg-white border  h-[250px] w-[90%] border-gray-200 rounded-lg shadow-lg ml-5 md:ml-10 flex'>
+    <div onClick={()=>navigate(`/productdetails/${product.id}`)}
+      className=' bg-white border  h-[250px] w-[90%] border-gray-200 rounded-lg shadow-lg ml-5 md:ml-10 flex'>
     <div>
       <img className="w-[200px] h-[200px] gap-2 rounded-lg m-auto mt-3"
         src={product.image} alt="" />

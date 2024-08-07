@@ -21,7 +21,7 @@ const Registration = () => {
     setIsSubmit(true);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
      
-      AddPersonTO(input)
+      AddPersonTO({...input,cart:[]})
           navigate('/signin'); 
        }
        console.log(input);
