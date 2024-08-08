@@ -1,7 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
-import { Link } from 'react-router-dom'
 
 const ProductLists = () => {
   const userId=useParams()
@@ -21,9 +20,7 @@ console.log(userId)
  
   return (
     <div>
-      <Link to={'/'}>
-      <button className='text-gray-900 bg-blue-500 w-[150px] h-[35px] rounded-md  '>Back to home</button>
-      </Link>
+      
     
 
       {items.map((datas)=>{
@@ -31,7 +28,7 @@ console.log(userId)
           <div 
       className=' bg-white border  h-[300px] md:w-[70%] border-gray-200 rounded-lg shadow-lg ml-5 md:ml-20 flex md:mt-10 md:mb-10'>
       <div>
-        <img className="w-[250px] gap-2 rounded-lg m-auto mt-3"
+        <img className="w-[250px] h-[250px]gap-2 rounded-lg m-auto mt-3"
           src={datas.image} alt="" />
       </div>
       <div className='flex flex-col gap-[10px] ml-10 mt-10'>

@@ -10,7 +10,7 @@ const DogProducts = ({products}) => {
   }
 
   return (
-    <div className="w-[250px] flex flex-col shadow-lg bg-white p-2 rounded-lg justify-between">
+    <div className="w-[200px] md:w-[250px] flex flex-col shadow-lg bg-white p-2 rounded-lg justify-between">
       <div
         onClick={() => navigate(`/productdetails/${products.id}`)}
       >
