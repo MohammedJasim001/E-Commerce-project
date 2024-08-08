@@ -1,26 +1,16 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React, { useContext} from 'react'
+
 import DogProducts from './DogProducts'
-
-
-
+import { Items } from '../MainPage/Main'
 const Dog = () => {
-  const [dogproducts,setDogproducts]=useState([])
-  useEffect(()=>{
-    axios.get('http://localhost:3000/products')
-      .then(res=>{
-        setDogproducts(res.data.filter((item)=>item.category==='Dog'))
-      })
-      .catch(err=>console.log(err))
-  },[])
-
+  const Datas = useContext(Items)
   return (
     <div >
       <h1 className="mb-2 text-3xl font-bold tracking-tight md:ml-10">Dog</h1>
  
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-3 pt-10 '>
-      {dogproducts.map((dogproducts)=>(
-        <DogProducts key={dogproducts.id} dogproducts={dogproducts}/>
+    <div className='grid grid-cols-1 md:grid-cols-5 gap-3 pt-10 '>
+      {Datas.filter((item)=>item.category==='Dog').map((dogproducts)=>(
+        <DogProducts key={dogproducts.id} products={dogproducts}/>
       ))}
     </div>
       

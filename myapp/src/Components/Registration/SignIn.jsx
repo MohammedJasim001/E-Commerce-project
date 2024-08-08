@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { Link, useNavigate,} from 'react-router-dom'
 import axios from 'axios'
+import { toast } from 'sonner'
+
+
 
 const SignIn = () => {
   const params =useNavigate()
@@ -14,7 +17,7 @@ const SignIn = () => {
 const handleSubmit =async (e)=>{
   e.preventDefault();
 try{
- const res = await  axios.get("http://localhost:3000/person")
+ const res = await  axios.get("http://localhost:3000/users")
   isLoggine(res.data)
  const user = loggine.find((e)=>{
       return e.email===signin.email && e.password===signin.password
@@ -23,14 +26,16 @@ try{
   if(user){
     
     localStorage.setItem("id",user.id)
-   
     params("/")
     window.location.reload()
+    alert('LogIn successfull')
+  }else{
+   alert('pls Login')
   }
   
 }catch(err){
   console.log("err".err);
- 
+
 }
 }
 
@@ -46,7 +51,7 @@ function handleChange(e){
     
     <div className='h-[100vh] flex flex-col items-center justify-center bg-red-200 absolute top-0 w-[100%] bottom-0'>
        <form onSubmit={handleSubmit} className='flex flex-col items-center justify-center rounded-md md:shadow-2xl h-[300px] w-[500px] bg-white'>
-           
+       
            <input className='border border-black  h-12 w-[300px] rounded-md'
                type="email" 
                placeholder='Email'

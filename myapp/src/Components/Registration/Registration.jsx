@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AddPersonTO } from './Logine';
 
@@ -27,6 +27,7 @@ const Registration = () => {
        console.log(input);
        
   };
+  
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -60,6 +61,7 @@ const Registration = () => {
       errors.cpassword = "Password didn't match";
     }
     return errors;
+    
   };
 
   return (

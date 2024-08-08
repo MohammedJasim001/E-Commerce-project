@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { useContext } from 'react';
+
 import { Link } from 'react-router-dom';
 
 import cat from '../Assets/cat6.jpg';
@@ -7,19 +7,11 @@ import dog from '../Assets/dog3.jpg';
 import bgimage from '../Assets/bgpet.png';
 import both from '../Assets/cat&dog.jpg';
 import Products from './Pages/Products';
+import { Items } from '../MainPage/Main';
 
 const Content = () => {
-    const [products, setProducts] = useState([]);
-
-    useEffect(() => {
-        axios.get('http://localhost:3000/products')
-            .then(response => {
-                setProducts(response.data.slice(0, 10));
-            })
-            .catch(error => {
-                console.error('Error fetching products:', error);
-            });
-    }, []);
+    const Datas = useContext(Items)
+   
 
     return (
         <div>
@@ -34,11 +26,11 @@ const Content = () => {
             {/* Discount Banner */}
             <div className="font-serif text-xl md:text-4xl bg-green-950 h-20 text-white flex items-center justify-center gap-5 text-center">
                 <h1>Get <span className="text-green-800 text-2xl md:text-4xl">10% off</span> your first order</h1>
-                <Link to="/registration">
+                {/* <Link to="/registration">
                     <button className="border border-white text-lg md:text-xl w-[120px] md:w-[160px] h-10 md:h-12 rounded-md">
                         Join Pets Club
                     </button>
-                </Link>
+                </Link> */}
             </div>
 
             {/* Shop Categories */}
@@ -72,7 +64,7 @@ const Content = () => {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-10">
-                    {products.map(product => (
+                    {Datas.slice(0,10).map(product => (
                         <Products key={product.id} product={product} />
                     ))}
                 </div>

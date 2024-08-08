@@ -1,26 +1,40 @@
 import React from 'react'
 import { useNavigate } from 'react-router'
+import { AddCarts } from '../AllProducts/Addcart'
 
-const DogProducts = ({dogproducts}) => {
+const DogProducts = ({products}) => {
   const navigate = useNavigate()
+  const handleCarts=(e)=>{
+    AddCarts(e)
+    alert('Item added to the cart')
+  }
+
   return (
-    <div onClick={()=>navigate(`/productdetails/${dogproducts.id}`)}
-      className=' bg-white border  h-[250px] w-[90%] border-gray-200 rounded-lg shadow-lg ml-5 md:ml-10 flex'>
-      <div>
-        <img className="w-[200px] gap-2 rounded-lg m-auto mt-3"
-          src={dogproducts.image} alt="" />
-      </div>
-      <div className='flex flex-col gap-[10px] ml-10'>
-        <h1 className='text-2xl font-bold tracking-tight text-gray-900'>{dogproducts.name}</h1>
-        <h1 className='text-base font-bold tracking-tight text-gray-900'>{dogproducts.brand}</h1>
-        <h3>{dogproducts.description}</h3>
-        <h4 className='text-gray-900 text-lg font-semibold'>${dogproducts.price}</h4>
-       
-          <button className='text-gray-900 bg-blue-500 w-[150px] h-[35px] rounded-md  '
-          >Add to cart</button>
+    <div className="w-[250px] flex flex-col shadow-lg bg-white p-2 rounded-lg justify-between">
+      <div
+        onClick={() => navigate(`/productdetails/${products.id}`)}
+      >
+        <img
+          className="w-[150px] gap-2 rounded-lg m-auto mt-3 h-[150px] "
+          src={products.image}
+          alt=""
+        />
+
+        <div className="flex flex-col gap-[10px] ml-10">
+          <h1 className="text-2xl font-bold tracking-tight text-gray-900">
+            {products.name}
+          </h1>
+          <h4 className="text-gray-900 text-lg font-semibold">
+            ${products.price}
+          </h4>
         </div>
-      
-        
+      </div>
+      <div className="flex justify-center ">
+        <button onClick={()=>handleCarts(products)}
+        className="text-white bg-blue-500 hover:bg-blue-600 w-[150px] h-[35px] rounded-md font-bold">
+          Add to cart
+        </button>
+      </div>
     </div>
   )
 }

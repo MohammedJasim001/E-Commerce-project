@@ -5,7 +5,7 @@ export const AddPersonTO = async(data)=>{
    
      try{
     
-      await  axios.post("http://localhost:3000/person",data)
+      await  axios.post("http://localhost:3000/users",data)
    
      }catch(err){
         console.log("errr");
