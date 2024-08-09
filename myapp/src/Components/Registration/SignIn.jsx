@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { Items } from '../MainPage/Main';
 
 const SignIn = () => {
+  const {data,users}=useContext(Items)
   const navigate = useNavigate();
   const [loggine, setLoggine] = useState([]);
   const [signin, setSignin] = useState({
@@ -20,9 +22,7 @@ const SignIn = () => {
     }
 
     try {
-      const res = await axios.get("http://localhost:3000/users");
-      setLoggine(res.data);
-      const user = res.data.find((e) => {
+      const user = users.find((e) => {
         return e.email === signin.email && e.password === signin.password;
       });
 
@@ -32,7 +32,7 @@ const SignIn = () => {
         window.location.reload();
         alert('Login successful');
       } else {
-        alert('Invalid login credentials');
+        alert('Invalid login Details');
       }
     } catch (err) {
       console.log("Error:", err);

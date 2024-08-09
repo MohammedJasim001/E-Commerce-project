@@ -297,102 +297,13 @@
   ],
   "users": [
     {
-      "id": "29e8",
-      "name": "jasim",
-      "email": "das@gamail.com",
-      "password": "sasa",
-      "cpassword": "sasa"
-    },
-    {
-      "id": "00d0",
-      "name": "salman",
-      "email": "salman@gmail.com",
-      "password": "aaaa",
-      "cpassword": "aaaa"
-    },
-    {
       "id": "2f20",
       "name": "salman",
       "email": "salman@gmail.com",
       "password": "asdf",
       "cpassword": "asdf",
       "cart": []
-    },
-    {
-      "id": "0bfb",
-      "name": "assss",
-      "email": "assss@gmail.com",
-      "password": "zxcv",
-      "cpassword": "zxcv",
-      "cart": {
-        "1": {
-          "id": "1",
-          "name": "Premium Dog Food",
-          "category": "Dog",
-          "brand": "Pedigree",
-          "price": 49.99,
-          "stock": 150,
-          "description": "High-quality dry dog food with natural ingredients.",
-          "ratings": 4.7,
-          "image": "https://th.bing.com/th/id/OIP.hYWtZ5l2PyRGDnz46VGf8AAAAA?rs=1&pid=ImgDetMain"
-        },
-        "2": {
-          "id": "2",
-          "name": "Organic Cat Food",
-          "category": "Cat",
-          "brand": "Meow Mix",
-          "price": 39.99,
-          "stock": 200,
-          "description": "Organic and grain-free cat food for optimal health.",
-          "ratings": 4.5,
-          "image": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg"
-        },
-        "3": {
-          "id": "3",
-          "name": "Furminator deShedding Tool",
-          "brand": "Furminator",
-          "category": "Cat",
-          "price": 29.99,
-          "description": "Reduces shedding up to 90% with regular use.",
-          "image": "https://s7d1.scene7.com/is/image/PETCO/1362933-center-1"
-        },
-        "4": {
-          "id": "4",
-          "name": "Purina Pro Plan Savor Adult",
-          "brand": "Purina Pro Plan",
-          "category": "Dog",
-          "description": "Dry dog food with a blend of crunchy kibble and tender meaty pieces.",
-          "price": 47.99,
-          "image": "https://images.north40.com/images/48206/BA_purina_pro_plan_savor_adult_shredded_blend_beef_and_rice_formula_dry_dog_food_35lb_48206.jpg?width=900&height=900"
-        },
-        "11": {
-          "id": "11",
-          "name": "Royal Canin Oral Care",
-          "brand": "Royal Canin",
-          "category": "Cat",
-          "price": 35.99,
-          "description": "Supports dental health and reduces tartar formation.",
-          "image": "https://th.bing.com/th/id/OIP.XrWoZ5tKrSqtJlm2hPBYfgAAAA?rs=1&pid=ImgDetMain"
-        },
-        "12": {
-          "id": "12",
-          "name": "Whiskas Grilled Slices",
-          "brand": "Whiskas",
-          "category": "Cat",
-          "price": 16.99,
-          "description": "Grilled slices in gravy for a delicious meal.",
-          "image": "https://th.bing.com/th/id/OIP.5MXcoBk19N_eAIDao7kSiQHaH_?rs=1&pid=ImgDetMain"
-        },
-        "17": {
-          "id": "17",
-          "name": "Dr. Elsey's Precious Cat Ultra",
-          "brand": "Dr. Elsey's",
-          "category": "Cat",
-          "price": 17.99,
-          "description": "Clumping cat litter with superior odor control.",
-          "image": "https://thepetstore.ae/cdn/shop/files/Dr.Elsey_sPreciousCatUltraHardClumpingScented99_DustFreecatlitter5.png?v=1693821647"
-        }
-      }
+      
     },
     {
       "id": "26fb",
@@ -435,38 +346,6 @@
       }
     },
     {
-      "id": "eea6",
-      "name": "jasim",
-      "email": "jasim@gmail.com",
-      "password": "1234",
-      "cpassword": "1234",
-      "cart": {}
-    },
-    {
-      "id": "ebe9",
-      "name": "abcd",
-      "email": "abcd@gmail.com",
-      "password": "1111",
-      "cpassword": "1111",
-      "cart": []
-    },
-    {
-      "id": "7c6d",
-      "name": "abcd",
-      "email": "abcd@gmail.com",
-      "password": "aaaa",
-      "cpassword": "aaaa",
-      "cart": []
-    },
-    {
-      "id": "2d01",
-      "name": "jasim",
-      "email": "jasim@gmail.com",
-      "password": "1234",
-      "cpassword": "1234",
-      "cart": []
-    },
-    {
       "id": "5928",
       "name": "sabith",
       "email": "sabith@gmail.com",
@@ -493,6 +372,26 @@
           "description": "Orthopedic dog bed with memory foam.",
           "ratings": 4.8,
           "image": "https://i5.walmartimages.com/asr/f3142e66-9ca4-49db-a229-87a09f284f22_2.4c65b46849a5e3c2540824bacc75bb48.jpeg"
+        },
+        "6": {
+          "id": "6",
+          "name": "PetSafe Easy Walk Harness",
+          "brand": "PetSafe",
+          "category": "Dog",
+          "price": 26.99,
+          "description": "No-pull harness for easier walks.",
+          "ratings": 4.4,
+          "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0"
+        },
+        "8": {
+          "id": "8",
+          "name": "Catit Flower Fountain",
+          "brand": "Catit",
+          "category": " Cat",
+          "price": 29.99,
+          "description": "Fun and functional water fountain for cats.",
+          "ratings": 4.3,
+          "image": "https://th.bing.com/th/id/R.5377ab729892f331f503f716cb40dbd9?rik=op49Fv7jX7Bj8w&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2506822-center-1&ehk=PtaeHixtr%2beVcjX2AoAjx1ffGWxrMewuShfHr6pP2WI%3d&risl=&pid=ImgRaw&r=0"
         }
       }
     }

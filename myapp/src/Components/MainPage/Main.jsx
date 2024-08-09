@@ -14,13 +14,16 @@ import ProductLists from '../ProductLists/ProductLists'
 import axios from 'axios'
 import BuyNow from '../Cart/Buy/BuyNow'
 import { ToastContainer } from 'react-toastify'
+import SearchResults from '../HomePage/SearchResults'
 
 export const Items=createContext()
 
+
 const Main = () => {
+  
 
 const [data,setData]=useState([])
-
+const [users,setUsers]=useState([])
 useEffect(()=>{
   axios.get('http://localhost:3000/products')
 
@@ -30,14 +33,20 @@ useEffect(()=>{
     .catch(err=>console.log(err))
 
 },[])
-
+useEffect(()=>{
+  axios.get("http://localhost:3000/users")
+    .then(res=>{
+      setUsers(res.data)
+    })
+    .catch(err=>console.log(err))
+},[])
 
   return (
-    <div >
+    <div className='bg-slate-100'>
        
-      <Items.Provider value={data}>
+      <Items.Provider value={{data,users}}>
       <Navbar/>
-      
+   
       <Routes>
       
         <Route path='/' element={<Home/>}/>

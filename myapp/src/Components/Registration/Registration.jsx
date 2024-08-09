@@ -1,10 +1,12 @@
-import React, {  useState } from 'react';
+import React, {  useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AddPersonTO } from './Logine';
+import { Items } from '../MainPage/Main';
 
 const Registration = () => {
-  const navigate = useNavigate(); // Initialize the useNavigate hook
 
+  const {data,users}=useContext(Items)
+  const navigate = useNavigate(); 
   const [input, setInput] = useState({
     name: '',
     email: '',
@@ -15,18 +17,34 @@ const Registration = () => {
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setFormErrors(validate(input));
     setIsSubmit(true);
     if (Object.keys(formErrors).length === 0 && isSubmit) {
-     
-      AddPersonTO({...input,cart:[]})
-      alert('Registration Completed')
-          navigate('/signin'); 
+      try{
+
+        const user = users.find((e) => {
+          return e.email === input.email;
+        });
+        if(user){
+          alert('E-mail already exist')
+         }
+         else{
+          AddPersonTO({...input,cart:[]})
+          alert('Registration Completed')
+              navigate('/signin'); 
+           }
+           console.log(input);
+        
+
        }
-       console.log(input);
-       
+       catch(err){
+        console.log(err)
+       }
+     
+
+     }     
   };
   
 

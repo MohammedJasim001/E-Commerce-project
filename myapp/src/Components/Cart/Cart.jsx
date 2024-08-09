@@ -4,7 +4,7 @@ import { RemovCart } from "../AllProducts/Addcart";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const [cart, setart] = useState([]);
+  const [cart, setCart] = useState([]);
   const handleRemove = async (e) => {
     await RemovCart(e);
     alert('Item deleted from the cart')
@@ -13,7 +13,7 @@ const Cart = () => {
     const user = localStorage.getItem("id");
     axios
       .get(`http://localhost:3000/users/${user}`)
-      .then((res) => setart(res.data.cart))
+      .then((res) => setCart(res.data.cart))
       .catch((err) => console.log(err));
   }, [handleRemove]);
 
@@ -46,10 +46,13 @@ const Cart = () => {
                   <span className=" font-semibold">{e.ratings}</span>
                 </div>
               </div>
-             
-                <button className=" p-2 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-lg shadow-lg">
+             <Link to={'/buynow'}>
+              <button className=" p-2 bg-blue-500 hover:bg-blue-600 text-white font-bold rounded-lg shadow-lg">
                   By Now
                 </button>
+
+             </Link>
+               
              
 
               <button

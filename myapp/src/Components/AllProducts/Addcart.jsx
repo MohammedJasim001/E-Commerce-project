@@ -24,10 +24,16 @@ export const AddCarts  =async(e)=>{
  
 export const RemovCart =async(e)=>{
     const user =  localStorage.getItem("id")
-    const res = await axios.get(`http://localhost:3000/users/${user}`)
-    const cart = res.data.cart
-    const {[e.id]:remove,...news} = cart
-    
-    
-    await axios.patch(`http://localhost:3000/users/${user}`,{cart : news})
+    try{
+        
+        const res = await axios.get(`http://localhost:3000/users/${user}`)
+        const cart = res.data.cart
+        const {[e.id]:remove,...news} = cart
+        await axios.patch(`http://localhost:3000/users/${user}`,{cart : news})
+
+    }
+    catch(err){
+        console.log(err)
+    }
+   
 }
