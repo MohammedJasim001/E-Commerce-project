@@ -3,23 +3,27 @@
     {
       "id": "1",
       "name": "Premium Dog Food",
-      "category": "Dog",
+      "category": "dog",
       "brand": "Pedigree",
-      "price": 49.99,
+      "item": "Dog Food",
+      "qty": "1 kg",
+      "price": "49.99",
       "stock": 150,
       "description": "High-quality dry dog food with natural ingredients.",
       "ratings": 4.7,
-      "image": "https://th.bing.com/th/id/OIP.hYWtZ5l2PyRGDnz46VGf8AAAAA?rs=1&pid=ImgDetMain"
+      "image": "https://www.poshaprani.com/wp-content/uploads/2019/07/pedigree-adult-dog-food-meat-rice-1-2-kg-874x1024.png"
     },
     {
       "id": "2",
       "name": "Organic Cat Food",
       "category": "Cat",
       "brand": "Meow Mix",
+      "item": "Cat Food",
+      "qty": "1 kg",
       "price": 39.99,
       "stock": 200,
       "description": "Organic and grain-free cat food for optimal health.",
-      "ratings": 4.5,
+      "ratings": "4.5",
       "image": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg"
     },
     {
@@ -27,16 +31,19 @@
       "name": "Furminator deShedding Tool",
       "brand": "Furminator",
       "category": "Cat",
+      "item": "Cat Grooming",
       "price": 29.99,
       "description": "Reduces shedding up to 90% with regular use.",
       "ratings": 4.7,
-      "image": "https://s7d1.scene7.com/is/image/PETCO/1362933-center-1"
+      "image": "https://th.bing.com/th/id/OIP.FtSyW18sL8i0SEChkigHBgHaG6?rs=1&pid=ImgDetMain"
     },
     {
       "id": "4",
       "name": "Purina Pro Plan Savor Adult",
       "brand": "Purina Pro Plan",
       "category": "Dog",
+      "item": "Dog Food",
+      "qty": "1 kg",
       "description": "Dry dog food with a blend of crunchy kibble and tender meaty pieces.",
       "ratings": 4.5,
       "price": 47.99,
@@ -47,6 +54,7 @@
       "name": "Dog Bed",
       "category": "Dog",
       "brand": "Comfy Canine",
+      "item": "Dog Accessories",
       "price": 59.99,
       "stock": 40,
       "description": "Orthopedic dog bed with memory foam.",
@@ -58,6 +66,7 @@
       "name": "PetSafe Easy Walk Harness",
       "brand": "PetSafe",
       "category": "Dog",
+      "item": "Dog Accessories",
       "price": 26.99,
       "description": "No-pull harness for easier walks.",
       "ratings": 4.4,
@@ -68,6 +77,8 @@
       "name": "Whiskas Dry Cat Food",
       "brand": "Whiskas",
       "category": "Cat",
+      "item": "Cat Food",
+      "qty": "950 g",
       "price": 18.99,
       "description": "Delicious dry cat food for everyday nutrition.",
       "ratings": 4.8,
@@ -78,6 +89,7 @@
       "name": "Catit Flower Fountain",
       "brand": "Catit",
       "category": " Cat",
+      "item": "Cat Accessories",
       "price": 29.99,
       "description": "Fun and functional water fountain for cats.",
       "ratings": 4.3,
@@ -88,6 +100,7 @@
       "name": "Tidy Cats Breeze Litter System",
       "brand": "Tidy Cats",
       "category": "Cat",
+      "item": "Cat Litter",
       "price": 29.99,
       "description": "Innovative litter system with pellets and pads.",
       "ratings": 4.5,
@@ -95,19 +108,23 @@
     },
     {
       "id": "10",
-      "name": "Whiskas Temptations Treats",
-      "brand": "Whiskas",
+      "name": "Royal Canin Feline Health Nutrition",
+      "brand": "Royal Canin",
       "category": "Cat",
-      "price": 6.99,
-      "description": "Irresistible treats for your cat.",
-      "ratings": 4.7,
-      "image": "https://th.bing.com/th/id/OIP.WW0MSok7hcU0YJjDeKVO_AHaJ0?rs=1&pid=ImgDetMain"
+      "item": "Cat Food",
+      "qty": "1 kg",
+      "price": 34.99,
+      "description": "Tailored nutrition for adult cats.",
+      "ratings": 4.8,
+      "image": "https://th.bing.com/th/id/R.11af40d4361782a5f1aa4612f669faf6?rik=nnEGSYRr3CzbsQ&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f1361236-center-1&ehk=UGS9KSRt4boxCjKi9btEJmA3L%2bd9r6MboS2jqt05Qa0%3d&risl=&pid=ImgRaw&r=0"
     },
     {
       "id": "11",
       "name": "Royal Canin Oral Care",
       "brand": "Royal Canin",
       "category": "Cat",
+      "item": "Cat Food",
+      "qty": "1 kg",
       "price": 35.99,
       "description": "Supports dental health and reduces tartar formation.",
       "ratings": 4.4,
@@ -118,6 +135,9 @@
       "name": "Whiskas Grilled Slices",
       "brand": "Whiskas",
       "category": "Cat",
+      "item": "Cat Food",
+      "bestseller": true,
+      "qty": "100 g",
       "price": 16.99,
       "description": "Grilled slices in gravy for a delicious meal.",
       "ratings": 4.5,
@@ -128,7 +148,9 @@
       "name": "Whiskas Meaty Selections",
       "brand": "Whiskas",
       "category": "Cat",
-      "price": 19.99,
+      "item": "Cat Food",
+      "qty": "4 kg",
+      "price": 99.99,
       "description": "Meaty dry food for a satisfying meal.",
       "ratings": 4.6,
       "image": "https://yardlands.co.nz/wp-content/uploads/2022/09/WHISKAS-MEATY-SELECTIONS.jpg"
@@ -138,6 +160,7 @@
       "name": "Furminator deShedding Tool",
       "brand": "Furminator",
       "category": "Cat",
+      "item": "Cat Grooming",
       "price": 29.99,
       "description": "Reduces shedding up to 90% with regular use.",
       "ratings": 4.8,
@@ -148,6 +171,7 @@
       "name": "Hertzko Self Cleaning Slicker Brush",
       "brand": "Hertzko",
       "category": "Cat",
+      "item": "Cat Grooming",
       "price": 19.99,
       "description": "Easily removes loose hair and eliminates tangles.",
       "ratings": 4.5,
@@ -158,6 +182,7 @@
       "name": "Vet's Best Waterless Cat Bath",
       "brand": "Vet's Best",
       "category": "Cat",
+      "item": "Cat Grooming",
       "price": 11.99,
       "description": "Leave-in foam shampoo for cats.",
       "ratings": 4.4,
@@ -165,10 +190,13 @@
     },
     {
       "id": "17",
-      "name": "Dr. Elsey's Precious Cat Ultra",
+      "name": "Precious Cat Ultra",
       "brand": "Dr. Elsey's",
       "category": "Cat",
-      "price": 17.99,
+      "item": "Cat Litter",
+      "bestseller": true,
+      "qty": "5 kg",
+      "price": 68.99,
       "description": "Clumping cat litter with superior odor control.",
       "ratings": 4.6,
       "image": "https://thepetstore.ae/cdn/shop/files/Dr.Elsey_sPreciousCatUltraHardClumpingScented99_DustFreecatlitter5.png?v=1693821647"
@@ -178,16 +206,19 @@
       "name": "K&H Pet Products Thermo-Kitty Bed",
       "brand": "K&H Pet Products",
       "category": "Cat",
+      "item": "Cat Accessories",
       "price": 49.99,
       "description": "Heated bed for cats to stay warm and cozy.",
       "ratings": 4.2,
-      "image": "https://img.chewy.com/is/catalog/100531_MAIN._AC_SL1500_V1479227144_.jpg"
+      "image": "https://th.bing.com/th/id/OIP.Uj2VKh1_krl1n0Egb-umdgHaHa?rs=1&pid=ImgDetMain"
     },
     {
       "id": "19",
       "name": "Petstages Tower of Tracks Cat Toy",
       "brand": "Petstages",
       "category": "Cat",
+      "item": "Cat Accessories",
+      "bestseller": true,
       "price": 14.99,
       "description": "Interactive toy with multiple levels and balls.",
       "ratings": 4.4,
@@ -198,6 +229,8 @@
       "name": "Blue Buffalo Life Protection Formula",
       "brand": "Blue Buffalo",
       "category": "Dog",
+      "item": "Dog Food",
+      "qty": "1.5 kg",
       "price": 49.99,
       "description": "High-quality dry dog food with real meat.",
       "ratings": 4.6,
@@ -208,6 +241,7 @@
       "name": "PetFusion Ultimate Dog Bed",
       "brand": "PetFusion",
       "category": "Dog",
+      "item": "Dog Accessories",
       "price": 89.99,
       "description": "Memory foam dog bed for comfort and support.",
       "ratings": 4.4,
@@ -215,158 +249,222 @@
     },
     {
       "id": "22",
-      "name": "Premium Dog Food",
-      "category": "Dog",
-      "brand": "Pedigree",
-      "price": 49.99,
-      "stock": 150,
-      "description": "High-quality dry dog food with natural ingredients.",
-      "ratings": 4.7,
-      "image": "https://th.bing.com/th/id/OIP.rOmRdn2BEmb9lfqnSGKk6AAAAA?rs=1&pid=ImgDetMain"
-    },
-    {
-      "id": "23",
       "name": "Acana Heritage Meats Formula",
       "brand": "Acana",
       "category": "Dog",
+      "item": "Dog Food",
+      "bestseller": true,
+      "qty": "2 kg",
       "description": "A grain-free dry dog food made with beef, pork, and lamb.",
       "price": 64.99,
       "ratings": 4.3,
       "image": "https://i5.walmartimages.com/asr/9485cecc-83da-4866-bf81-2c23ac15fee7_2.40b79ef04d5e0aaddb5d5768457bbee9.jpeg"
     },
     {
-      "id": "24",
-      "name": "Wellness CORE RawRev High-Protein",
+      "id": "23",
+      "name": "Wellness CORE RawRev",
       "brand": "Wellness",
       "category": "Dog",
+      "item": "Dog Food",
+      "bestseller": true,
+      "qty": "2 kg",
       "description": "High-protein, grain-free dry dog food with raw bites.",
       "price": 75.99,
       "ratings": 4.8,
       "image": "https://m.media-amazon.com/images/I/71tGERDz42L.jpg"
     },
     {
-      "id": "25",
+      "id": "24",
       "name": "Nutro Ultra Adult Dry Dog Food",
       "brand": "Nutro",
       "category": "Dog",
+      "item": "Dog Food",
+      "qty": "1.4 kg",
       "description": "Premium dry dog food with chicken, lamb, and salmon.",
       "price": 53.99,
       "ratings": 4.7,
       "image": "https://petstrendstore.com/wp-content/uploads/2019/01/nutro-ultra-adult-dry-dog-food-with-a-trio-of-proteins-from-chicken-lamb-and-1024x1024.jpg"
     },
     {
-      "id": "26",
+      "id": "25",
       "name": "Earth Rated Dog Poop Bags",
       "brand": "Earth Rated",
       "category": "Dog",
+      "item": "Dog Grooming",
       "description": "Leak-proof and biodegradable dog poop bags.",
       "price": 14.99,
       "ratings": 4.5,
       "image": "https://i5.walmartimages.com/asr/96026281-7eb9-4699-9123-d31c22f7f0da_1.23bc75f9f501af45a91d36f97cbe3129.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
     },
     {
-      "id": "27",
-      "name": "Wahl Lithium Ion Pro Series Cordless Dog Clippers",
+      "id": "26",
+      "name": " Cordless Dog Clippers",
       "brand": "Wahl",
       "category": "Dog",
+      "item": "Dog Grooming",
       "description": "Cordless dog clippers for grooming at home.",
       "price": 59.99,
       "ratings": 4.5,
       "image": "https://th.bing.com/th/id/OIP.acafuPGTaGqfrC_YNPWTQwHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": "28",
+      "id": "27",
       "name": "Meow Mix Tender Centers",
       "brand": "Meow",
       "category": "Cat",
+      "item": "Cat Food",
+      "bestseller": true,
+      "qty": "1 kg",
       "price": 20.99,
       "description": "Crunchy outside, tender inside dry cat food.",
       "ratings": 4.6,
       "image": "https://th.bing.com/th/id/OIP.2nvdTMXM0gEixfkkrWm0FQHaHa?rs=1&pid=ImgDetMain"
     },
     {
-      "id": "29",
-      "name": "Royal Canin Feline Health Nutrition",
-      "brand": "Royal Canin",
+      "id": "28",
+      "name": "Whiskas Temptations Treats",
+      "brand": "Whiskas",
       "category": "Cat",
-      "price": 34.99,
-      "description": "Tailored nutrition for adult cats.",
-      "ratings": 4.8,
-      "image": "https://th.bing.com/th/id/R.11af40d4361782a5f1aa4612f669faf6?rik=nnEGSYRr3CzbsQ&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f1361236-center-1&ehk=UGS9KSRt4boxCjKi9btEJmA3L%2bd9r6MboS2jqt05Qa0%3d&risl=&pid=ImgRaw&r=0"
+      "item": "Cat Food",
+      "qty": "180 g",
+      "price": 6.99,
+      "description": "Irresistible treats for your cat.",
+      "ratings": 4.7,
+      "image": "https://bigamartusax.s3-accelerate.amazonaws.com/2020/07/81GG-V3NY3L._AC_SL1500_.jpg"
     }
   ],
   "users": [
     {
-      "id": "2f20",
-      "name": "salman",
-      "email": "salman@gmail.com",
-      "password": "asdf",
-      "cpassword": "asdf",
-      "cart": []
-      
+      "id": "be68",
+      "name": "jasim",
+      "email": "jasim@gmail.com",
+      "password": "1234",
+      "cpassword": "1234",
+      "admin": true,
+      "cart": {
+        "17": {
+          "id": "17",
+          "name": "Precious Cat Ultra",
+          "brand": "Dr. Elsey's",
+          "category": "Cat",
+          "item": "Cat Litter",
+          "bestseller": true,
+          "qty": "5 kg",
+          "price": 68.99,
+          "description": "Clumping cat litter with superior odor control.",
+          "ratings": 4.6,
+          "image": "https://thepetstore.ae/cdn/shop/files/Dr.Elsey_sPreciousCatUltraHardClumpingScented99_DustFreecatlitter5.png?v=1693821647"
+        }
+      }
     },
     {
-      "id": "26fb",
-      "name": "abcd",
-      "email": "abcd@gmail.com",
-      "password": "asdf",
-      "cpassword": "asdf",
+      "id": "3263",
+      "name": "jas",
+      "email": "ab@gmail.com",
+      "password": "1234",
+      "cpassword": "1234",
       "cart": {
-        "1": {
-          "id": "1",
-          "name": "Premium Dog Food",
-          "category": "Dog",
-          "brand": "Pedigree",
-          "price": 49.99,
-          "stock": 150,
-          "description": "High-quality dry dog food with natural ingredients.",
-          "ratings": 4.7,
-          "image": "https://th.bing.com/th/id/OIP.hYWtZ5l2PyRGDnz46VGf8AAAAA?rs=1&pid=ImgDetMain"
-        },
+        "2": {
+          "id": "2",
+          "name": "Organic Cat Food",
+          "category": "Cat",
+          "brand": "Meow Mix",
+          "item": "Cat Food",
+          "qty": "1 kg",
+          "price": 39.99,
+          "stock": 200,
+          "description": "Organic and grain-free cat food for optimal health.",
+          "ratings": "4.5",
+          "image": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg"
+        }
+      },
+      "blocked": false,
+      "orderedProducts": {
+        "order_1724154733434": {
+          "productData": [
+            {
+              "id": "2",
+              "name": "Organic Cat Food",
+              "category": "Cat",
+              "brand": "Meow Mix",
+              "price": 39.99,
+              "stock": 200,
+              "description": "Organic and grain-free cat food for optimal health.",
+              "ratings": 4.5,
+              "image": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg",
+              "count": 1
+            },
+            {
+              "id": "4",
+              "name": "Purina Pro Plan Savor Adult",
+              "brand": "Purina Pro Plan",
+              "category": "Dog",
+              "description": "Dry dog food with a blend of crunchy kibble and tender meaty pieces.",
+              "ratings": 4.5,
+              "price": 47.99,
+              "image": "https://images.north40.com/images/48206/BA_purina_pro_plan_savor_adult_shredded_blend_beef_and_rice_formula_dry_dog_food_35lb_48206.jpg?width=900&height=900",
+              "count": 1
+            },
+            {
+              "id": "6",
+              "name": "PetSafe Easy Walk Harness",
+              "brand": "PetSafe",
+              "category": "Dog",
+              "price": 26.99,
+              "description": "No-pull harness for easier walks.",
+              "ratings": 4.4,
+              "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0",
+              "count": 1
+            },
+            {
+              "id": "10",
+              "name": "Whiskas Temptations Treats",
+              "brand": "Whiskas",
+              "category": "Cat",
+              "price": 6.99,
+              "description": "Irresistible treats for your cat.",
+              "ratings": 4.7,
+              "image": "https://th.bing.com/th/id/OIP.WW0MSok7hcU0YJjDeKVO_AHaJ0?rs=1&pid=ImgDetMain",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "fgjkm",
+            "city": "111",
+            "state": "111",
+            "payment": "card"
+          },
+          "totalPrice": 121.96
+        }
+      }
+    },
+    {
+      "id": "8a84",
+      "name": "salman",
+      "email": "salman@gmail.com",
+      "password": "1111",
+      "cpassword": "1111",
+      "cart": {
         "3": {
           "id": "3",
           "name": "Furminator deShedding Tool",
           "brand": "Furminator",
           "category": "Cat",
+          "item": "Cat Grooming",
           "price": 29.99,
           "description": "Reduces shedding up to 90% with regular use.",
-          "ratings": 4.3,
-          "image": "https://s7d1.scene7.com/is/image/PETCO/1362933-center-1"
-        },
-        "9": {
-          "id": "9",
-          "name": "Tidy Cats Breeze Litter System",
-          "brand": "Tidy Cats",
-          "category": "Cat",
-          "price": 29.99,
-          "description": "Innovative litter system with pellets and pads.",
-          "ratings": 4.5,
-          "image": "https://th.bing.com/th/id/OIP.e7z9Wt754RtTO58l0mXgaQHaHa?rs=1&pid=ImgDetMain"
-        }
-      }
-    },
-    {
-      "id": "5928",
-      "name": "sabith",
-      "email": "sabith@gmail.com",
-      "password": "1234",
-      "cpassword": "1234",
-      "cart": {
-        "4": {
-          "id": "4",
-          "name": "Purina Pro Plan Savor Adult",
-          "brand": "Purina Pro Plan",
-          "category": "Dog",
-          "description": "Dry dog food with a blend of crunchy kibble and tender meaty pieces.",
-          "ratings": 4.5,
-          "price": 47.99,
-          "image": "https://images.north40.com/images/48206/BA_purina_pro_plan_savor_adult_shredded_blend_beef_and_rice_formula_dry_dog_food_35lb_48206.jpg?width=900&height=900"
+          "ratings": 4.7,
+          "image": "https://th.bing.com/th/id/OIP.FtSyW18sL8i0SEChkigHBgHaG6?rs=1&pid=ImgDetMain"
         },
         "5": {
           "id": "5",
           "name": "Dog Bed",
           "category": "Dog",
           "brand": "Comfy Canine",
+          "item": "Dog Accessories",
           "price": 59.99,
           "stock": 40,
           "description": "Orthopedic dog bed with memory foam.",
@@ -378,22 +476,301 @@
           "name": "PetSafe Easy Walk Harness",
           "brand": "PetSafe",
           "category": "Dog",
+          "item": "Dog Accessories",
           "price": 26.99,
           "description": "No-pull harness for easier walks.",
           "ratings": 4.4,
           "image": "https://th.bing.com/th/id/R.9ee5e418e7d842f2fa716037f9a211be?rik=FIRkrAsopXzXcw&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2255605-right-1&ehk=ZWkqDHLvYMgvMowxYRtg2J9NRMyurtDWnpI2pNG7o0I%3d&risl=&pid=ImgRaw&r=0"
+        }
+      },
+      "blocked": false,
+      "orderedProducts": {
+        "order_1724154559219": {
+          "productData": [
+            {
+              "id": "2",
+              "name": "Organic Cat Food",
+              "category": "Cat",
+              "brand": "Meow Mix",
+              "item": "Cat Food",
+              "qty": "1 kg",
+              "price": 39.99,
+              "stock": 200,
+              "description": "Organic and grain-free cat food for optimal health.",
+              "ratings": "4.5",
+              "image": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "fghbjn",
+            "city": "111",
+            "state": "111",
+            "payment": "upi"
+          },
+          "totalPrice": 39.99
         },
-        "8": {
-          "id": "8",
-          "name": "Catit Flower Fountain",
-          "brand": "Catit",
-          "category": " Cat",
-          "price": 29.99,
-          "description": "Fun and functional water fountain for cats.",
-          "ratings": 4.3,
-          "image": "https://th.bing.com/th/id/R.5377ab729892f331f503f716cb40dbd9?rik=op49Fv7jX7Bj8w&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2506822-center-1&ehk=PtaeHixtr%2beVcjX2AoAjx1ffGWxrMewuShfHr6pP2WI%3d&risl=&pid=ImgRaw&r=0"
+        "order_1724309245352": {
+          "productData": [
+            {
+              "id": "3",
+              "name": "Furminator deShedding Tool",
+              "brand": "Furminator",
+              "category": "Cat",
+              "item": "Cat Grooming",
+              "price": 29.99,
+              "description": "Reduces shedding up to 90% with regular use.",
+              "ratings": 4.7,
+              "image": "https://th.bing.com/th/id/OIP.FtSyW18sL8i0SEChkigHBgHaG6?rs=1&pid=ImgDetMain",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "www",
+            "city": "111",
+            "state": "111",
+            "payment": "upi"
+          },
+          "totalPrice": 29.99
+        },
+        "order_1724321547728": {
+          "productData": [
+            {
+              "id": "2",
+              "name": "Organic Cat Food",
+              "category": "Cat",
+              "brand": "Meow Mix",
+              "item": "Cat Food",
+              "qty": "1 kg",
+              "price": 39.99,
+              "stock": 200,
+              "description": "Organic and grain-free cat food for optimal health.",
+              "ratings": "4.5",
+              "image": "https://i.pinimg.com/736x/2b/c1/e7/2bc1e784ceefabbd3b0f9c4fbab5d1a3.jpg",
+              "count": 1
+            },
+            {
+              "id": "3",
+              "name": "Furminator deShedding Tool",
+              "brand": "Furminator",
+              "category": "Cat",
+              "item": "Cat Grooming",
+              "price": 29.99,
+              "description": "Reduces shedding up to 90% with regular use.",
+              "ratings": 4.7,
+              "image": "https://th.bing.com/th/id/OIP.FtSyW18sL8i0SEChkigHBgHaG6?rs=1&pid=ImgDetMain",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "fgjkm",
+            "city": "111",
+            "state": "111",
+            "payment": "upi"
+          },
+          "totalPrice": 69.98
+        },
+        "order_1724388675922": {
+          "productData": [
+            {
+              "id": "3",
+              "name": "Furminator deShedding Tool",
+              "brand": "Furminator",
+              "category": "Cat",
+              "item": "Cat Grooming",
+              "price": 29.99,
+              "description": "Reduces shedding up to 90% with regular use.",
+              "ratings": 4.7,
+              "image": "https://th.bing.com/th/id/OIP.FtSyW18sL8i0SEChkigHBgHaG6?rs=1&pid=ImgDetMain",
+              "count": 1
+            },
+            {
+              "id": "7",
+              "name": "Whiskas Dry Cat Food",
+              "brand": "Whiskas",
+              "category": "Cat",
+              "item": "Cat Food",
+              "qty": "950 g",
+              "price": 18.99,
+              "description": "Delicious dry cat food for everyday nutrition.",
+              "ratings": 4.8,
+              "image": "https://th.bing.com/th/id/OIP.v9mjLB1Ir0rt5jkhaKPR_QHaHa?rs=1&pid=ImgDetMain",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "dasda",
+            "city": "111",
+            "state": "111",
+            "payment": "cod"
+          },
+          "totalPrice": 48.98
         }
       }
+    },
+    {
+      "id": "1c36",
+      "name": "abcd",
+      "email": "abcd@gmail.com",
+      "password": "1212",
+      "cpassword": "1212",
+      "cart": "",
+      "orderedProducts": {
+        "0": {
+          "productData": [
+            {
+              "id": "1",
+              "name": "Premium Dog Food",
+              "category": "dog",
+              "brand": "Pedigree",
+              "item": "Dog Food",
+              "qty": "1 kg",
+              "price": "49.99",
+              "stock": 150,
+              "description": "High-quality dry dog food with natural ingredients.",
+              "ratings": 4.7,
+              "image": "https://th.bing.com/th/id/OIP.hYWtZ5l2PyRGDnz46VGf8AAAAA?rs=1&pid=ImgDetMain",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "dfghj",
+            "city": "111",
+            "state": "111",
+            "payment": "upi"
+          },
+          "totalPrice": 49.99
+        },
+        "order_1724152759126": {
+          "productData": [
+            {
+              "id": "8",
+              "name": "Catit Flower Fountain",
+              "brand": "Catit",
+              "category": " Cat",
+              "item": "Cat Accessories",
+              "price": 29.99,
+              "description": "Fun and functional water fountain for cats.",
+              "ratings": 4.3,
+              "image": "https://th.bing.com/th/id/R.5377ab729892f331f503f716cb40dbd9?rik=op49Fv7jX7Bj8w&riu=http%3a%2f%2fs7d1.scene7.com%2fis%2fimage%2fPETCO%2f2506822-center-1&ehk=PtaeHixtr%2beVcjX2AoAjx1ffGWxrMewuShfHr6pP2WI%3d&risl=&pid=ImgRaw&r=0",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "dfghj",
+            "city": "111",
+            "state": "111",
+            "payment": "cod"
+          },
+          "totalPrice": 29.99
+        },
+        "order_1724153562239": {
+          "productData": [
+            {
+              "id": "1",
+              "name": "Premium Dog Food",
+              "category": "dog",
+              "brand": "Pedigree",
+              "item": "Dog Food",
+              "qty": "1 kg",
+              "price": "49.99",
+              "stock": 150,
+              "description": "High-quality dry dog food with natural ingredients.",
+              "ratings": 4.7,
+              "image": "https://th.bing.com/th/id/OIP.hYWtZ5l2PyRGDnz46VGf8AAAAA?rs=1&pid=ImgDetMain",
+              "count": 1
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "ggfg",
+            "city": "111",
+            "state": "111",
+            "payment": "cod"
+          },
+          "totalPrice": 49.99
+        }
+      }
+    },
+    {
+      "id": "92a0",
+      "name": "juju",
+      "email": "juju@gmail.com",
+      "password": "aaaaa",
+      "cpassword": "aaaaa",
+      "cart": "",
+      "orderedProducts": {
+        "order_1724218920381": {
+          "productData": [
+            {
+              "id": "5",
+              "name": "Dog Bed",
+              "category": "Dog",
+              "brand": "Comfy Canine",
+              "item": "Dog Accessories",
+              "price": 59.99,
+              "stock": 40,
+              "description": "Orthopedic dog bed with memory foam.",
+              "ratings": 4.8,
+              "image": "https://i5.walmartimages.com/asr/f3142e66-9ca4-49db-a229-87a09f284f22_2.4c65b46849a5e3c2540824bacc75bb48.jpeg",
+              "count": 4
+            },
+            {
+              "id": "23",
+              "name": "Wellness CORE RawRev High-Protein",
+              "brand": "Wellness",
+              "category": "Dog",
+              "item": "Dog Food",
+              "qty": "2 kg",
+              "description": "High-protein, grain-free dry dog food with raw bites.",
+              "price": 75.99,
+              "ratings": 4.8,
+              "image": "https://m.media-amazon.com/images/I/71tGERDz42L.jpg",
+              "count": 4
+            }
+          ],
+          "orderDetails": {
+            "name": "hahaha",
+            "mobilenumber": "1111111122",
+            "pincode": "111111",
+            "address": "ss",
+            "city": "111",
+            "state": "111",
+            "payment": "card"
+          },
+          "totalPrice": 543.92
+        }
+      },
+      "blocked": true
+    },
+    {
+      "id": "7227",
+      "name": "  kk",
+      "email": "kk@gmail.com",
+      "password": "aaaa",
+      "cpassword": "aaaa",
+      "cart": [],
+      "blocked": true
     }
   ]
 }

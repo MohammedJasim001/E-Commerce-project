@@ -1,40 +1,40 @@
-import React from "react";
+import React, { useContext } from "react";
 import { useNavigate } from "react-router";
+import { Items } from "../MainPage/Main";
 import { AddCarts } from "../AllProducts/Addcart";
 
 const ProductsCat = ({ products }) => {
   const navigate = useNavigate();
-  const handleCarts = (e) => {
-    AddCarts(e);
-    alert('Item added to the cart')
-  };
+  const {fetchUserData} = useContext(Items)
+
+  const handleCarts = async(e) => {
+    await AddCarts(e);
+    await fetchUserData()
+   };
 
   return (
-    <div className="w-[200px] md:w-[250px] flex flex-col shadow-lg bg-white p-2 rounded-lg justify-between">
-      <div
-        onClick={() => navigate(`/productdetails/${products.id}`)}
-      >
+    <div className="w-[200px] md:w-[270px] flex flex-col shadow-lg bg-white p-2 rounded-lg justify-between mt-10 ">
+      <div onClick={() => navigate(`/productdetails/${products.id}`)}>
         <img
-          className="w-[150px] gap-2 rounded-lg m-auto mt-3 h-[150px] "
+          className="w-[200px] gap-2 rounded-lg m-auto mt-3 h-[200px] mb-3"
           src={products.image}
           alt=""
         />
 
-        <div className="flex flex-col gap-[10px] ml-10">
-          <h1 className="text-2xl font-bold tracking-tight text-gray-900">
+        <div className="flex flex-col gap-[10px]  ">
+          <h1 className=" font-bold text-gray-900">
             {products.name}
           </h1>
+          <span className="text-green-600 font-bold">
+            {products.ratings} ★
+          </span>
           <h4 className="text-gray-900 text-lg font-semibold">
             ${products.price}
           </h4>
         </div>
       </div>
-      <div className="flex justify-center ">
-        <button onClick={()=>handleCarts(products)}
-        className="text-white bg-blue-500 hover:bg-blue-600 w-[150px] h-[35px] rounded-md font-bold ">
-          Add to cart
-        </button>
-      </div>
+      <button onClick={()=>handleCarts(products)}
+        className='bg-[#65a30d]  p-3 mt-2 rounded-md text-white'>ADD TO CART</button>
     </div>
   );
 };
